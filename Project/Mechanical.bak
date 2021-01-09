@@ -1,0 +1,149 @@
+EESchema Schematic File Version 4
+LIBS:HW_Testbench-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 22 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanicals:Mounting-Hole-M3 H1
+U 1 1 5FF7FAAE
+P 3200 1800
+F 0 "H1" H 2900 1800 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 2750 2050 60  0000 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 3200 1250 60  0001 C CNN
+F 3 "" H 3200 1600 60  0001 C CNN
+	1    3200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:DGND #PWR042
+U 1 1 5FF80144
+P 3200 2150
+F 0 "#PWR042" H 3200 1980 50  0001 C CNN
+F 1 "DGND" H 3200 2050 50  0000 C CNN
+F 2 "" H 3200 2250 60  0000 C CNN
+F 3 "" H 3180 2060 60  0000 C CNN
+	1    3200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H3
+U 1 1 5FF811DC
+P 4300 1800
+F 0 "H3" H 4000 1800 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 3850 2050 60  0000 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4300 1250 60  0001 C CNN
+F 3 "" H 4300 1600 60  0001 C CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:DGND #PWR053
+U 1 1 5FF811E2
+P 4300 2150
+F 0 "#PWR053" H 4300 1980 50  0001 C CNN
+F 1 "DGND" H 4300 2050 50  0000 C CNN
+F 2 "" H 4300 2250 60  0000 C CNN
+F 3 "" H 4280 2060 60  0000 C CNN
+	1    4300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H7
+U 1 1 5FF82270
+P 5400 2800
+F 0 "H7" H 5100 2800 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 4950 3050 60  0000 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 5400 2250 60  0001 C CNN
+F 3 "" H 5400 2600 60  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:DGND #PWR072
+U 1 1 5FF82276
+P 5400 3150
+F 0 "#PWR072" H 5400 2980 50  0001 C CNN
+F 1 "DGND" H 5400 3050 50  0000 C CNN
+F 2 "" H 5400 3250 60  0000 C CNN
+F 3 "" H 5380 3060 60  0000 C CNN
+	1    5400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H2
+U 1 1 5FF84B37
+P 3200 2800
+F 0 "H2" H 2900 2800 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 2750 3050 60  0000 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 3200 2250 60  0001 C CNN
+F 3 "" H 3200 2600 60  0001 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:DGND #PWR050
+U 1 1 5FF84B3D
+P 3200 3150
+F 0 "#PWR050" H 3200 2980 50  0001 C CNN
+F 1 "DGND" H 3200 3050 50  0000 C CNN
+F 2 "" H 3200 3250 60  0000 C CNN
+F 3 "" H 3180 3060 60  0000 C CNN
+	1    3200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H4
+U 1 1 5FF85939
+P 4300 2800
+F 0 "H4" H 4000 2800 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 3850 3050 60  0000 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4300 2250 60  0001 C CNN
+F 3 "" H 4300 2600 60  0001 C CNN
+	1    4300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:DGND #PWR060
+U 1 1 5FF8593F
+P 4300 3150
+F 0 "#PWR060" H 4300 2980 50  0001 C CNN
+F 1 "DGND" H 4300 3050 50  0000 C CNN
+F 2 "" H 4300 3250 60  0000 C CNN
+F 3 "" H 4280 3060 60  0000 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H6
+U 1 1 5FF86B72
+P 5400 1800
+F 0 "H6" H 5100 1800 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 4950 2050 60  0000 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 5400 1250 60  0001 C CNN
+F 3 "" H 5400 1600 60  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:DGND #PWR070
+U 1 1 5FF86B78
+P 5400 2150
+F 0 "#PWR070" H 5400 1980 50  0001 C CNN
+F 1 "DGND" H 5400 2050 50  0000 C CNN
+F 2 "" H 5400 2250 60  0000 C CNN
+F 3 "" H 5380 2060 60  0000 C CNN
+	1    5400 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

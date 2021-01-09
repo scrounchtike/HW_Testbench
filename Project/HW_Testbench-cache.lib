@@ -1,0 +1,1197 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Capacitors_885012007053
+#
+DEF Capacitors_885012007053 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012007053" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7848-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012007053" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 22PF 50V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
+F9 "22pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±5%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012107005
+#
+DEF Capacitors_885012107005 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012107005" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7616-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012107005" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 22UF 6.3V X5R 0805" -50 -850 60 H I C CNN "Description"
+F9 "22µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "6.3V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012107014
+#
+DEF Capacitors_885012107014 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012107014" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7624-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012007027" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 10UF 16V X5R 0805" -50 -850 60 H I C CNN "Description"
+F9 "10µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "16V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012107015
+#
+DEF Capacitors_885012107015 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012107015" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7625-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012107015" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
+F9 "1µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012107018
+#
+DEF Capacitors_885012107018 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012107018" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7628-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012107018" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 4.7UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
+F9 "4.7µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012207080
+#
+DEF Capacitors_885012207080 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012207080" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-8062-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012207080" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 100PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "100pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012207092
+#
+DEF Capacitors_885012207092 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012207092" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-8074-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012207092" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 10000PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "10nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_885012207098
+#
+DEF Capacitors_885012207098 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_885012207098" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-8080-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012207098" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "100nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connectors_1935161
+#
+DEF Connectors_1935161 J 0 0 Y N 1 F N
+F0 "J" -100 200 60 H V C CNN
+F1 "Connectors_1935161" 0 -320 50 H I C CNN
+F2 "Connectors:1935161" 0 -910 30 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "277-1667-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
+F7 "1935161" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TERM BLOCK PCB 2POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connectors_61900611121
+#
+DEF Connectors_61900611121 J 0 0 Y N 1 F N
+F0 "J" -50 600 60 H V C CNN
+F1 "Connectors_61900611121" 0 -320 50 H I C CNN
+F2 "Connectors:61900611121" 0 -910 30 H I C CNN
+F3 "" 0 -960 30 H I C CNN
+F4 "Wurth" 0 -510 60 H I C CNN "Supplier"
+F5 "61900611121" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Wurth" 0 -610 60 H I C CNN "Manufacturer"
+F7 "61900611121" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Male Locking Header 1x6 2.54mm" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 550 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+X ~ 4 100 300 100 L 50 50 1 1 P
+X ~ 5 100 400 100 L 50 50 1 1 P
+X ~ 6 100 500 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connectors_649006227222
+#
+DEF Connectors_649006227222 J 0 0 Y N 1 F N
+F0 "J" 0 -150 60 H V C CNN
+F1 "Connectors_649006227222" 0 -250 60 H V C CNN
+F2 "Connectors:649006227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1939-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649006227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 6P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 350 100 -50 0 1 0 f
+X 7 7 200 300 100 L 50 50 0 0 P
+X 8 8 -200 300 100 R 50 50 0 0 P
+X 1 1 200 0 100 L 50 50 1 1 I
+X 2 2 -200 0 100 R 50 50 1 1 I
+X 3 3 200 100 100 L 50 50 1 1 I
+X 4 4 -200 100 100 R 50 50 1 1 I
+X 5 5 200 200 100 L 50 50 1 1 I
+X 6 6 -200 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded
+#
+DEF Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 200 60 H V C CNN
+F1 "Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X2" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded
+#
+DEF Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 300 60 H V C CNN
+F1 "Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X3" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 250 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+X ~ 3 100 200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connectors_Test_Point_THM
+#
+DEF Connectors_Test_Point_THM TP 0 0 N N 1 F N
+F0 "TP" 0 100 60 H V C CNN
+F1 "Connectors_Test_Point_THM" 0 -300 60 H I C CNN
+F2 "Connectors:Keystone_5001" 0 -900 60 H I C CNN
+F3 "http://keyelco.com/userAssets/file/M65p56.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "36-5001-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "5001" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "TEST POINT PC MINI .040\"D BLACK" 0 -800 60 H I C CNN "Description"
+DRAW
+S -50 50 100 -50 0 1 0 f
+X TP 1 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Crystals_7A-8.000MAHJ-T
+#
+DEF Crystals_7A-8.000MAHJ-T XTAL 0 0 N N 1 F N
+F0 "XTAL" 0 200 60 H V C CNN
+F1 "Crystals_7A-8.000MAHJ-T" 0 -200 39 H V C CNN
+F2 "Crystals:TXC_7A_Series" 0 -800 60 H I C CNN
+F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7A_28.pdf" 50 -900 60 H I C CNN
+F4 "Digikey" 0 -300 60 H I C CNN "Supplier"
+F5 "887-2634-1-ND" 0 -400 60 H I C CNN "Supplier Part Number"
+F6 "TXC CORPORATION" 0 -500 60 H I C CNN "Manufacturer"
+F7 "ABLS-8.000MHZ-D-T" 0 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "CRYSTAL 8.000MHZ 18PF SMT" 0 -700 60 H I C CNN "Description"
+DRAW
+S -40 120 40 -120 1 1 10 f
+P 2 1 1 0 -100 0 -70 0 N
+P 2 1 1 0 100 0 70 0 N
+P 3 1 1 0 -70 100 -70 0 -70 -100 N
+P 3 1 1 0 70 100 70 0 70 -100 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 200 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Diodes_150080RS75000
+#
+DEF Diodes_150080RS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "Diodes_150080RS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_RED" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4984-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080RS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "RED" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diodes_150080VS75000
+#
+DEF Diodes_150080VS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "Diodes_150080VS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_GREEN" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4986-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080VS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED GREEN CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "GREEN" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diodes_150080YS75000
+#
+DEF Diodes_150080YS75000 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "Diodes_150080YS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_YELLOW" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4987-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080YS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED YELLOW CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "YELLOW" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diodes_D1213A-02SOL-7
+#
+DEF Diodes_D1213A-02SOL-7 D 0 0 Y N 1 F N
+F0 "D" 0 200 60 H V C CNN
+F1 "Diodes_D1213A-02SOL-7" 0 -250 60 H V C CNN
+F2 "IC:SOT-23-3" 0 -1020 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf" 0 -1120 60 H I C CNN
+F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
+F5 "D1213A-02SOL-7DICT-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -720 60 H I C CNN "Manufacturer"
+F7 "D1213A-02SOL-7" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 3.3VWM 10VC SOT23" 0 -920 60 H I C CNN "Description"
+DRAW
+S -200 -150 200 150 0 1 0 f
+P 2 0 1 0 -140 0 -30 0 N
+P 2 0 1 0 -100 -90 -100 -50 N
+P 2 0 1 0 -100 40 -100 80 N
+P 2 0 1 0 -50 -70 50 -70 N
+P 2 0 1 0 -50 60 50 60 N
+P 2 0 1 0 -30 -20 -50 -40 N
+P 2 0 1 0 -30 -20 -30 20 N
+P 2 0 1 0 -30 20 -10 40 N
+P 2 0 1 0 20 0 140 0 N
+P 2 0 1 0 50 -90 50 -50 N
+P 2 0 1 0 50 40 50 80 N
+P 2 0 1 0 140 0 200 0 N
+P 3 0 1 0 -200 -100 0 -100 0 -70 N
+P 3 0 1 0 -200 100 0 100 0 60 N
+P 3 0 1 0 -140 0 -140 -70 -100 -70 N
+P 3 0 1 0 -140 0 -140 60 -100 60 N
+P 3 0 1 0 100 -70 130 -70 130 0 N
+P 3 0 1 0 100 60 140 60 140 0 N
+P 4 1 1 0 -50 -50 -50 -90 -100 -70 -50 -50 N
+P 4 1 1 0 -50 80 -50 40 -100 60 -50 80 N
+P 4 1 1 0 20 20 20 -20 -30 0 20 20 N
+P 4 1 1 0 100 -50 100 -90 50 -70 100 -50 N
+P 4 1 1 0 100 80 100 40 50 60 100 80 N
+X CH1 1 -300 100 100 R 50 50 1 1 I
+X CH2 2 -300 -100 100 R 50 50 1 1 I
+X GND 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Fuses_39511000440
+#
+DEF Fuses_39511000440 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "Fuses_39511000440" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "WK4348BK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "39511000440" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 1A 125VAC RADIAL" 0 -800 60 H I C CNN "Description"
+F9 "1A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "-" -100 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "125V" 100 -200 60 H I C CNN "Voltage Rating - AC"
+F12 "Fuse Holder" 0 -1100 60 H I C CNN "Fuse Holder"
+F13 "Digikey" 0 -1200 60 H I C CNN "Supplier"
+F14 "WK0009-ND" 0 -1300 60 H I C CNN "Supplier Part Number"
+F15 "Littelfuse Inc." 0 -1450 60 H I C CNN "Manufacturer"
+F16 "56200001009" 0 -1600 60 H I C CNN "Manufacturer Part Number"
+F17 "FUSE HOLDER RADIAL 250V 6.3A PCB" 0 -1750 60 H I C CNN "Description"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Interface_SN65HVD232DR
+#
+DEF Interface_SN65HVD232DR U 0 0 Y N 1 F N
+F0 "U" -50 700 60 H V C CNN
+F1 "Interface_SN65HVD232DR" -50 -150 60 H V C CNN
+F2 "IC:SOIC-8" 0 -900 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "296-26344-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 0 -600 60 H I C CNN "Manufacturer"
+F7 "SN65HVD232DR" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC CAN TRANSCEIVER 3.3V 8-SOIC" 0 -800 60 H I C CNN "Description"
+DRAW
+T 0 50 400 50 0 0 0 "CAN H" Normal 0 C C
+T 0 50 200 50 0 0 0 "CAN L" Normal 0 C C
+T 0 -200 0 50 0 0 0 GND Normal 0 C C
+T 0 100 0 50 0 0 0 NC Normal 0 C C
+T 0 100 600 50 0 0 0 NC Normal 0 C C
+T 0 -200 200 50 0 0 0 RXD Normal 0 C C
+T 0 -200 400 50 0 0 0 TXD Normal 0 C C
+T 0 -200 600 50 0 0 0 Vcc Normal 0 C C
+S -300 650 200 -50 0 1 0 f
+X TXD 1 -400 400 100 R 50 30 1 1 I
+X GND 2 -400 0 100 R 50 30 1 1 I
+X Vcc 3 -400 600 100 R 50 30 1 1 I
+X RXD 4 -400 200 100 R 50 30 1 1 O
+X NC 5 300 0 100 L 50 30 1 1 I
+X CAN_L 6 300 200 100 L 50 30 1 1 I
+X CAN_H 7 300 400 100 L 50 30 1 1 I
+X NC 8 300 600 100 L 50 30 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Mechanicals_Mounting-Hole-M3
+#
+DEF Mechanicals_Mounting-Hole-M3 H 0 40 Y Y 1 F N
+F0 "H" 0 200 60 H V C CNN
+F1 "Mechanicals_Mounting-Hole-M3" 0 -450 60 H V C CNN
+F2 "Connectors:Mounting_Hole_3mm" 0 -550 60 H I C CNN
+F3 "" 0 -200 60 H I C CNN
+DRAW
+C 0 0 100 0 1 0 N
+C 0 0 150 0 1 0 N
+X ~ 1 0 -250 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PMIC_AZ1117IH-3.3TRG1
+#
+DEF PMIC_AZ1117IH-3.3TRG1 U 0 0 Y N 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "PMIC_AZ1117IH-3.3TRG1" 0 -400 60 H V C CNN
+F2 "IC:SOT-223-3" 0 -1805 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf" 0 -1905 60 H I C CNN
+F4 "Digikey" 0 -1305 60 H I C CNN "Supplier"
+F5 "AZ1117IH-3.3TRG1DICT-ND" 0 -1405 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1505 60 H I C CNN "Manufacturer"
+F7 "AZ1117IH-3.3TRG1" 0 -1605 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 3.3V 0.8A SOT223" 0 -1705 60 H I C CNN "Description"
+F9 "Linear" 5 -645 50 H I C CNN "Regulator Topology"
+F10 "3.3V" -5 -730 50 H I C CNN "Voltage - Output"
+F11 "800mA" 5 -840 50 H I C CNN "Current - Output"
+F12 "1.2V @ 800mA" 10 -945 50 H I C CNN "Voltage - Dropout (Typical)"
+F13 "Up to 15V" -10 -1115 50 H I C CNN "Voltage - Input"
+F14 "800mA" -10 -1195 50 H I C CNN "Current - Limit (Min)"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 100 100 60 0 0 0 TAB Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 150 0 0 0 f
+X GND 1 0 -300 100 U 50 50 1 1 I
+X Vout 2 300 0 100 L 50 50 1 1 I
+X Vin 3 -300 0 100 R 50 50 1 1 I
+X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PMIC_LTC2992IMS_PBF
+#
+DEF PMIC_LTC2992IMS_PBF U 0 0 Y N 1 F N
+F0 "U" 0 2250 60 H V C CNN
+F1 "PMIC_LTC2992IMS_PBF" -10 -100 60 H V C CNN
+F2 "IC:AnalogDevices_16-MSOP" 10 -740 60 H I C CNN
+F3 "" 10 -840 60 H I C CNN
+F4 "Digikey" 10 -240 60 H I C CNN "Supplier"
+F5 "LTC2992IMS#PBF-ND" 10 -340 60 H I C CNN "Supplier Part Number"
+F6 "Analog Devices" 10 -440 60 H I C CNN "Manufacturer"
+F7 "LTC2992IMS#PBF" 10 -540 60 H I C CNN "Manufacturer Part Number"
+F8 "Power Supply Controller Telecommunications 16-MSOP" 10 -640 60 H I C CNN "Description"
+DRAW
+T 0 -450 1200 50 0 0 0 ADR0 Normal 0 L C
+T 0 -450 1100 50 0 0 0 ADR1 Normal 0 L C
+T 0 450 100 50 0 0 0 GND Normal 0 R C
+T 0 -450 500 50 0 0 0 GPIO1 Normal 0 L C
+T 0 -450 400 50 0 0 0 GPIO2 Normal 0 L C
+T 0 450 500 50 0 0 0 GPIO3 Normal 0 R C
+T 0 450 400 50 0 0 0 GPIO4 Normal 0 R C
+T 0 450 2000 50 0 0 0 INTVCC Normal 0 R C
+T 0 -450 900 50 0 0 0 SCL Normal 0 L C
+T 0 -450 800 50 0 0 0 SDAI Normal 0 L C
+T 0 -450 700 50 0 0 0 SDAO Normal 0 L C
+T 0 -450 1800 50 0 0 0 SENSE1+ Normal 0 L C
+T 0 -450 1700 50 0 0 0 SENSE1- Normal 0 L C
+T 0 -450 1500 50 0 0 0 SENSE2+ Normal 0 L C
+T 0 -450 1400 50 0 0 0 SENSE2- Normal 0 L C
+T 0 450 2100 50 0 0 0 VDD Normal 0 R C
+S -500 0 500 2200 1 1 10 f
+X SENSE1– 1 -700 1700 200 R 40 40 1 1 I
+X SDAI 10 -700 800 200 R 40 40 1 1 P
+X SDAO 11 -700 700 200 R 40 40 1 1 P
+X GND 12 700 100 200 L 40 40 1 1 W
+X GPIO4 13 700 400 200 L 40 40 1 1 B
+X GPIO2 14 -700 400 200 R 40 40 1 1 B
+X SENSE2+ 15 -700 1500 200 R 40 40 1 1 I
+X SENSE2– 16 -700 1400 200 R 40 40 1 1 I
+X SENSE1+ 2 -700 1800 200 R 40 40 1 1 I
+X GPIO1 3 -700 500 200 R 40 40 1 1 B
+X GPIO3 4 700 500 200 L 40 40 1 1 B
+X ADR1 5 -700 1100 200 R 40 40 1 1 I
+X ADR0 6 -700 1200 200 R 40 40 1 1 I
+X INTVCC 7 700 2000 200 L 40 40 1 1 P
+X VDD 8 700 2100 200 L 40 40 1 1 W
+X SCL 9 -700 900 200 R 40 40 1 1 I C
+ENDDRAW
+ENDDEF
+#
+# PMIC_OKI-78SR-5_1.5-W36H-C
+#
+DEF PMIC_OKI-78SR-5_1.5-W36H-C U 0 0 Y N 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "PMIC_OKI-78SR-5_1.5-W36H-C" 0 -400 60 H V C CNN
+F2 "Assembly:OKI-78SR_Horizontal" 0 -2125 60 H I C CNN
+F3 "http://power.murata.com/data/power/oki-78sr.pdf" 0 -2225 60 H I C CNN
+F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
+F5 "811-2692-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
+F7 "OKI-78SR-5/1.5-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER 5V 8W" 0 -2025 60 H I C CNN "Description"
+F9 "7V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
+F10 "36V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
+F11 "5V" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "1.5A" 5 -1300 50 H I C CNN "Current - Output"
+DRAW
+T 0 0 -150 60 0 0 0 GND Normal 0 C C
+T 0 -120 0 60 0 0 0 Vin Normal 0 C C
+T 0 90 0 60 0 0 0 Vout Normal 0 C C
+S -200 -200 200 100 0 1 0 f
+X Vin 1 -300 0 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 I
+X Vout 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Power_Port_12V
+#
+DEF Power_Port_12V #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Port_12V" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X 12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Port_3.3V
+#
+DEF Power_Port_3.3V #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Port_3.3V" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X 3.3V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Port_5V
+#
+DEF Power_Port_5V #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Port_5V" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X 5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Port_CAN_PWR
+#
+DEF Power_Port_CAN_PWR #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Port_CAN_PWR" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X CAN_PWR 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Port_DGND
+#
+DEF Power_Port_DGND #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -170 50 H I C CNN
+F1 "Power_Port_DGND" 0 -100 50 H V C CNN
+F2 "" 0 100 60 H V C CNN
+F3 "" -20 -90 60 H V C CNN
+DRAW
+P 2 0 1 0 0 0 50 0 N
+P 3 0 1 0 -50 0 0 -60 50 0 f
+P 3 0 1 0 0 100 0 0 -50 0 N
+X DGND 1 0 100 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Port_PWR_FLAG
+#
+DEF Power_Port_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 -100 60 H I C CNN
+F1 "Power_Port_PWR_FLAG" 0 200 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -50 100 0 150 50 100 0 50 f
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# Power_Port_VDD
+#
+DEF Power_Port_VDD #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Port_VDD" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 -150 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Resistors_0hms_0.5W
+#
+DEF Resistors_0hms_0.5W R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_0hms_0.5W" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "36-5106CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "5106" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "0 Ohms Jumper 0.5W, 1/2W Chip Resistor 0805 (2012 Metric)  Metal Element" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "1/2W" 0 -140 50 H I C CNN "Puissance (Watts)"
+F11 "Digikey" 0 -400 60 H I C CNN "Supplier"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_ERJ-6LWFR005V
+#
+DEF Resistors_ERJ-6LWFR005V R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "Resistors_ERJ-6LWFR005V" 50 -300 50 H I C CNN
+F2 "Resistors:R0805" 50 -900 30 H I C CNN
+F3 "" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "P19183TR-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 50 -600 60 H I C CNN "Manufacturer"
+F7 "ERJ-6LWFR005V" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "5 mOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense Thick Film" 50 -800 60 H I C CNN "Description"
+F9 "0.005" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1/2W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "±1%" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-070RL
+#
+DEF Resistors_RC0805JR-070RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-070RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-0.0ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-070RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-07100RL
+#
+DEF Resistors_RC0805JR-07100RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-07100RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-100ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07100RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 100 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-0710KL
+#
+DEF Resistors_RC0805JR-0710KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-0710KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-10KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0710KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-071KL
+#
+DEF Resistors_RC0805JR-071KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-071KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.0KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-071KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-07470RL
+#
+DEF Resistors_RC0805JR-07470RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-07470RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-470ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07470RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 470 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "470" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-074K7L
+#
+DEF Resistors_RC0805JR-074K7L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-074K7L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-4.7KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-074K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 4.7K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "4.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC1206JR-07120RL
+#
+DEF Resistors_RC1206JR-07120RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC1206JR-07120RL" 0 -300 50 H I C CNN
+F2 "Resistors:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-120ERCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206JR-07120RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 120 OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "120" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# STMicroelectronics_STLINK-V3MODS
+#
+DEF STMicroelectronics_STLINK-V3MODS U 0 40 Y Y 1 F N
+F0 "U" 0 2400 60 H V C CNN
+F1 "STMicroelectronics_STLINK-V3MODS" 0 2550 60 H V C CNN
+F2 "Assembly:MOD_STLINK-V3M_MB1467" 0 -600 60 H I C CNN
+F3 "" 0 -700 60 H I C CNN
+F4 "Digikey" 0 -100 60 H I C CNN "Supplier"
+F5 "497-STLINK-V3MODS-ND" 0 -200 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 0 -300 60 H I C CNN "Manufacturer"
+F7 "STLINK-V3MODS" 0 -400 60 H I C CNN "Manufacturer Part Number"
+F8 "STM32 - Debugger, Programmer (In-Circuit/In-System)" 0 -500 60 H I C CNN "Description"
+DRAW
+P 2 1 1 6 -1300 250 1500 250 N
+P 2 1 1 6 -1300 2150 -1300 250 N
+P 2 1 1 6 1500 250 1500 2150 N
+P 2 1 1 6 1500 2150 -1300 2150 N
+X BRIDGE_UART_RX 1 -1500 1950 200 R 40 40 1 1 P
+X BRIDGE_CAN_TX 10 -1500 1050 200 R 40 40 1 1 P
+X BRIDGE_UART_TX 11 -1500 950 200 R 40 40 1 1 P
+X T_VCP_TX 12 -1500 850 200 R 40 40 1 1 P
+X T_JCLK/T_SWCLK 13 -1500 750 200 R 40 40 1 1 P
+X BRIDGE_SPI_NSS 14 -1500 650 200 R 40 40 1 1 P
+X T_VCP_RX 15 -1500 550 200 R 40 40 1 1 P
+X BRIDGE_I2C_SCL 16 -1500 450 200 R 40 40 1 1 B
+X BRIDGE_I2C_SDA 17 1700 450 200 L 40 40 1 1 B
+X BRIDGE_GPIO0 18 1700 550 200 L 40 40 1 1 B
+X BRIDGE_GPIO1 19 1700 650 200 L 40 40 1 1 B
+X BRIDGE_UART_CTS 2 -1500 1850 200 R 40 40 1 1 P
+X BRIDGE_GPIO2 20 1700 750 200 L 40 40 1 1 B
+X BRIDGE_GPIO3 21 1700 850 200 L 40 40 1 1 B
+X 5V_OPT 22 1700 950 200 L 40 40 1 1 P
+X BRIDGE_SPI_MISO 23 1700 1050 200 L 40 40 1 1 P
+X GND 24 1700 1150 200 L 40 40 1 1 P
+X BRIDGE_SPI_MOSI 25 1700 1250 200 L 40 40 1 1 P
+X GND2 26 1700 1350 200 L 40 40 1 1 P
+X GND3 27 1700 1450 200 L 40 40 1 1 P
+X T_JTDI/NC 28 1700 1550 200 L 40 40 1 1 P
+X GND4 29 1700 1650 200 L 40 40 1 1 P
+X BRIDGE_UART_RTS 3 -1500 1750 200 R 40 40 1 1 P
+X T_VCC 30 1700 1750 200 L 40 40 1 1 P
+X T_NRST 31 1700 1850 200 L 40 40 1 1 P
+X T_SW_DIR 32 1700 1950 200 L 40 40 1 1 P
+X T_JTMS/T_SWDIO 4 -1500 1650 200 R 40 40 1 1 P
+X GNDDETECT 5 -1500 1550 200 R 40 40 1 1 P
+X T_JTDO/T_SWO 6 -1500 1450 200 R 40 40 1 1 P
+X BRIDGE_SPI_CLK 7 -1500 1350 200 R 40 40 1 1 P
+X GND_2 8 -1500 1250 200 R 40 40 1 1 P
+X BRIDGE_CAN_RX 9 -1500 1150 200 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# STMicroelectronics_STM32F446RE
+#
+DEF STMicroelectronics_STM32F446RE U 0 40 Y Y 1 F N
+F0 "U" -1100 1200 60 H V C CNN
+F1 "STMicroelectronics_STM32F446RE" 0 0 60 H V C CNN
+F2 "IC:LQFP-64" 0 -2000 60 H I C CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf" 0 -2100 60 H I C CNN
+F4 "Digikey" 0 -1500 60 H I C CNN "Supplier"
+F5 "497-15376-ND" 0 -1600 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 0 -1700 60 H I C CNN "Manufacturer"
+F7 "STM32F446RET6" 0 -1800 60 H I C CNN "Manufacturer Part Number"
+F8 "IC MCU 32BIT 512KB FLASH 64LQFP" 0 -1900 60 H I C CNN "Description"
+DRAW
+S -1100 1000 1000 -1100 0 1 0 f
+X VBAT 1 -1200 700 100 R 50 50 1 1 I
+X PC2 10 -1200 -200 100 R 50 50 1 1 B
+X PC3 11 -1200 -300 100 R 50 50 1 1 U
+X VSSA/VREF- 12 -1200 -400 100 R 50 50 1 1 I
+X VDDA/VREF+ 13 -1200 -500 100 R 50 50 1 1 I
+X PA0 14 -1200 -600 100 R 50 50 1 1 B
+X PA1 15 -1200 -700 100 R 50 50 1 1 B
+X PA2 16 -1200 -800 100 R 50 50 1 1 B
+X PA3 17 -800 -1200 100 U 50 50 1 1 B
+X VSS 18 -700 -1200 100 U 50 50 1 1 W
+X VDD 19 -600 -1200 100 U 50 50 1 1 W
+X PC13 2 -1200 600 100 R 50 50 1 1 B
+X PA4 20 -500 -1200 100 U 50 50 1 1 B
+X PA5 21 -400 -1200 100 U 50 50 1 1 B
+X PA6 22 -300 -1200 100 U 50 50 1 1 B
+X PA7 23 -200 -1200 100 U 50 50 1 1 B
+X PC4 24 -100 -1200 100 U 50 50 1 1 B
+X PC5 25 0 -1200 100 U 50 50 1 1 B
+X PB0 26 100 -1200 100 U 50 50 1 1 B
+X PB1 27 200 -1200 100 U 50 50 1 1 B
+X PB2 28 300 -1200 100 U 50 50 1 1 B
+X PB10 29 400 -1200 100 U 50 50 1 1 B
+X PC14-OSC32_IN 3 -1200 500 100 R 50 50 1 1 I
+X VCAP_1 30 500 -1200 100 U 50 50 1 1 I
+X VSS 31 600 -1200 100 U 50 50 1 1 W
+X VDD 32 700 -1200 100 U 50 50 1 1 W
+X PB12 33 1100 -800 100 L 50 50 1 1 B
+X PB13 34 1100 -700 100 L 50 50 1 1 B
+X PB14 35 1100 -600 100 L 50 50 1 1 B
+X PB15 36 1100 -500 100 L 50 50 1 1 B
+X PC6 37 1100 -400 100 L 50 50 1 1 B
+X PC7 38 1100 -300 100 L 50 50 1 1 B
+X PC8 39 1100 -200 100 L 50 50 1 1 B
+X PC15-OSC32_OUT 4 -1200 400 100 R 50 50 1 1 I
+X PC9 40 1100 -100 100 L 50 50 1 1 B
+X PA8 41 1100 0 100 L 50 50 1 1 B
+X PA9 42 1100 100 100 L 50 50 1 1 B
+X PA10 43 1100 200 100 L 50 50 1 1 B
+X PA11 44 1100 300 100 L 50 50 1 1 B
+X PA12 45 1100 400 100 L 50 50 1 1 B
+X PA13 46 1100 500 100 L 50 50 1 1 B
+X VSS 47 1100 600 100 L 50 50 1 1 W
+X VDD 48 1100 700 100 L 50 50 1 1 W
+X PA14 49 700 1100 100 D 50 50 1 1 B
+X PH0-OSC_IN 5 -1200 300 100 R 50 50 1 1 I
+X PA15 50 600 1100 100 D 50 50 1 1 B
+X PC10 51 500 1100 100 D 50 50 1 1 B
+X PC11 52 400 1100 100 D 50 50 1 1 B
+X PC12 53 300 1100 100 D 50 50 1 1 B
+X PD2 54 200 1100 100 D 50 50 1 1 B
+X PB3 55 100 1100 100 D 50 50 1 1 B
+X PB4 56 0 1100 100 D 50 50 1 1 B
+X PB5 57 -100 1100 100 D 50 50 1 1 B
+X PB6 58 -200 1100 100 D 50 50 1 1 B
+X PB7 59 -300 1100 100 D 50 50 1 1 B
+X PH1-OSC_OUT 6 -1200 200 100 R 50 50 1 1 I
+X BOOT0 60 -400 1100 100 D 50 50 1 1 I
+X PB8 61 -500 1100 100 D 50 50 1 1 B
+X PB9 62 -600 1100 100 D 50 50 1 1 B
+X VSS 63 -700 1100 100 D 50 50 1 1 W
+X VDD 64 -800 1100 100 D 50 50 1 1 W
+X NRST 7 -1200 100 100 R 50 50 1 1 I
+X PC0 8 -1200 0 100 R 50 50 1 1 B
+X PC1 9 -1200 -100 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Switches_PTS645SM43SMTR92
+#
+DEF Switches_PTS645SM43SMTR92 SW? 0 0 Y N 1 F N
+F0 "SW?" 0 150 60 H V C CNN
+F1 "Switches_PTS645SM43SMTR92" 0 -250 60 H I C CNN
+F2 "Switches:PTS645_6X6X4_SMD" 0 -850 60 H I C CNN
+F3 "http://www.ckswitches.com/media/1471/pts645.pdf" 0 -950 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "CKN9112CT-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "C&K" 0 -550 60 H I C CNN "Manufacturer"
+F7 "PTS645SM43SMTR92 LFS" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "SWITCH TACTILE SPST-NO 0.05A 12V" 0 -750 60 H I C CNN "Description"
+DRAW
+C -50 -50 7 0 1 10 N
+C 50 -50 7 0 1 10 N
+S -100 0 -100 -100 0 1 0 f
+S -75 0 75 0 0 1 10 f
+S -50 -50 -100 -50 0 1 0 f
+S -25 0 -25 100 0 1 0 f
+S 25 100 -25 100 0 1 0 f
+S 25 100 25 0 0 1 0 f
+S 50 -50 100 -50 0 1 0 f
+S 100 0 100 -100 0 1 0 f
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+X 3 3 200 0 100 L 50 50 1 1 I
+X 4 4 200 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# multiplexers_TMUX1208PWR
+#
+DEF multiplexers_TMUX1208PWR U 0 0 Y N 1 F N
+F0 "U" 0 750 60 H V C CNN
+F1 "multiplexers_TMUX1208PWR" 0 -400 60 H V C CNN
+F2 "IC:TSSOP-16" 10 -1040 60 H I C CNN
+F3 "" 10 -1140 60 H I C CNN
+F4 "Digikey" 10 -540 60 H I C CNN "Supplier"
+F5 "296-51847-2-ND" 10 -640 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 10 -740 60 H I C CNN "Manufacturer"
+F7 "TMUX1208PWR" 10 -840 60 H I C CNN "Manufacturer Part Number"
+F8 "1 Circuit IC Switch 8:1 3Ohm (Typ) 16-TSSOP" 10 -940 60 H I C CNN "Description"
+DRAW
+T 0 -250 500 50 0 1 1 A0 Normal 0 R C
+T 0 250 500 50 0 1 1 A1 Normal 0 L C
+T 0 250 400 50 0 1 1 A2 Normal 0 L C
+T 0 -300 -200 50 0 1 1 D Normal 0 R C
+T 0 -250 400 50 0 1 1 EN Normal 0 R C
+T 0 200 300 50 0 1 1 GND Normal 0 L C
+T 0 -200 330 50 0 1 1 N.C. Normal 0 R T
+T 0 -250 200 50 0 1 1 S1 Normal 0 R C
+T 0 -250 100 50 0 1 1 S2 Normal 0 R C
+T 0 -250 0 50 0 1 1 S3 Normal 0 R C
+T 0 -250 -70 50 0 1 1 S4 Normal 0 R T
+T 0 250 100 50 0 1 1 S5 Normal 0 L C
+T 0 250 0 50 0 1 1 S6 Normal 0 L C
+T 0 250 -100 50 0 1 1 S7 Normal 0 L C
+T 0 250 -200 50 0 1 1 S8 Normal 0 L C
+T 0 200 200 50 0 1 1 VCC Normal 0 L C
+S -400 600 400 -300 1 1 0 f
+X A0 1 -700 500 300 R 59 59 1 1 I
+X S7 10 700 -100 300 L 59 59 1 1 B
+X S6 11 700 0 300 L 59 59 1 1 B
+X S5 12 700 100 300 L 59 59 1 1 B
+X VDD 13 700 200 300 L 59 59 1 1 W
+X GND 14 700 300 300 L 59 59 1 1 W
+X A2 15 700 400 300 L 59 59 1 1 I
+X A1 16 700 500 300 L 59 59 1 1 I
+X EN 2 -700 400 300 R 59 59 1 1 I
+X N-C- 3 -700 300 300 R 59 59 1 1 N
+X S1 4 -700 200 300 R 59 59 1 1 B
+X S2 5 -700 100 300 R 59 59 1 1 B
+X S3 6 -700 0 300 R 59 59 1 1 B
+X S4 7 -700 -100 300 R 59 59 1 1 B
+X D 8 -700 -200 300 R 59 59 1 1 B
+X S8 9 700 -200 300 L 59 59 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,791 @@
+EESchema Schematic File Version 4
+LIBS:HW_Testbench-cache
+EELAYER 29 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 22
+Title ""
+Date ""
+Rev ""
+Comp "Eclipse Solar Car"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1950 950  950  200 
+U 58F590C0
+F0 "Power Supply" 60
+F1 "Power Supply.sch" 60
+$EndSheet
+Text Label 8800 850  0    60   ~ 0
+PA0
+Text Label 8800 950  0    60   ~ 0
+PA1
+Text Label 8800 1250 0    50   ~ 0
+PA4
+Text Label 8800 1350 0    50   ~ 0
+PA5
+Text Label 8800 1450 0    50   ~ 0
+PA6
+Text Label 8800 1550 0    50   ~ 0
+PA7
+Text Label 8800 2350 0    60   ~ 0
+PA15
+Text Label 8800 2550 0    60   ~ 0
+PB15
+Text Label 8800 2650 0    60   ~ 0
+PB14
+Text Label 8800 2850 0    60   ~ 0
+PB12
+Text Label 8800 2950 0    60   ~ 0
+PB10
+Text Label 8800 3050 0    60   ~ 0
+PB9
+Text Label 8400 3150 0    50   ~ 0
+ADR_0
+Text Label 8400 3250 0    50   ~ 0
+ADR_1
+Text Label 8400 3350 0    50   ~ 0
+ADR_2
+Text Label 8800 3750 0    50   ~ 0
+PB2
+Text Label 8800 3850 0    50   ~ 0
+PB1
+Text Label 8800 3950 0    50   ~ 0
+PB0
+Text Label 8800 4350 0    60   ~ 0
+PC11
+Text Label 8800 4450 0    60   ~ 0
+PC10
+Text Label 8800 4550 0    60   ~ 0
+PC9
+Text Label 8800 4650 0    60   ~ 0
+PC8
+Text Label 8800 4750 0    60   ~ 0
+PC7
+Text Label 8800 4850 0    60   ~ 0
+PC6
+Text Label 8800 4950 0    60   ~ 0
+PC5
+Text Label 8800 5050 0    60   ~ 0
+PC4
+Text Label 8800 5150 0    60   ~ 0
+PC3
+Text Label 8800 5250 0    60   ~ 0
+PC2
+Text Label 8800 5350 0    60   ~ 0
+PC1
+Text Label 8800 5450 0    60   ~ 0
+PC0
+Text Label 8800 5650 0    60   ~ 0
+PD2
+Text Label 8800 5750 0    60   ~ 0
+VBat
+Text Label 8800 6250 2    50   ~ 0
+MCU_NRST
+Wire Wire Line
+	8800 850  9100 850 
+Wire Wire Line
+	8800 950  9100 950 
+Wire Wire Line
+	8800 2350 9100 2350
+Wire Wire Line
+	8800 2550 9100 2550
+Wire Wire Line
+	8800 2650 9100 2650
+Wire Wire Line
+	9100 2850 8800 2850
+Wire Wire Line
+	8800 3750 9100 3750
+Wire Wire Line
+	8800 3850 9100 3850
+Wire Wire Line
+	8800 3950 9100 3950
+Wire Wire Line
+	8800 4350 9100 4350
+Wire Wire Line
+	8800 4450 9100 4450
+Wire Wire Line
+	8800 4550 9100 4550
+Wire Wire Line
+	9100 4650 8800 4650
+Wire Wire Line
+	8800 4750 9100 4750
+Wire Wire Line
+	8800 4850 9100 4850
+Wire Wire Line
+	8800 4950 9100 4950
+Wire Wire Line
+	8800 5050 9100 5050
+Wire Wire Line
+	8800 5150 9100 5150
+Wire Wire Line
+	8800 5250 9100 5250
+Wire Wire Line
+	8800 5350 9100 5350
+Wire Wire Line
+	8800 5450 9100 5450
+Wire Wire Line
+	8800 6250 9100 6250
+$Comp
+L Power_Port:DGND #PWR0105
+U 1 1 58FF9D0B
+P 1300 1400
+F 0 "#PWR0105" H 1300 1230 50  0001 C CNN
+F 1 "DGND" H 1300 1300 50  0000 C CNN
+F 2 "" H 1300 1500 60  0000 C CNN
+F 3 "" H 1280 1310 60  0000 C CNN
+	1    1300 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1300 1200 1300
+$Comp
+L Connectors:Header_Male_Pin_2.54mm_1X2_,_Unshrouded J107
+U 1 1 58FFADEF
+P 1000 1300
+F 0 "J107" H 950 1500 60  0000 C CNN
+F 1 "Header_Male_Pin_2.54mm_1X2_,_Unshrouded" H 1000 980 50  0001 C CNN
+F 2 "Connectors:Headers_2.54mm_1X2" H 1000 390 30  0001 C CNN
+F 3 "D" H 1000 340 30  0001 C CNN
+F 4 "Ebay" H 1000 790 60  0001 C CNN "Supplier"
+F 5 "Pin Male Single Row Pin Header Strip" H 1000 890 60  0001 C CNN "Supplier Part Number"
+F 6 "Manufacturer" H 1000 690 60  0001 C CNN "Manufacturer"
+F 7 "Manufacturer Part Number" H 1000 590 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Pin Male Single Row Pin Header Strip" H 1000 490 60  0001 C CNN "Description"
+	1    1000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1200 1200 1200
+Wire Wire Line
+	1200 1200 1200 1300
+Connection ~ 1200 1300
+Text Label 8700 1950 2    50   ~ 0
+CAN1_RXD
+Wire Wire Line
+	1200 1300 1300 1300
+Wire Wire Line
+	8800 5750 9100 5750
+$Sheet
+S 7350 5000 650  800 
+U 5FE85902
+F0 "SWD_Connecteurs" 50
+F1 "SWD_Connectors.sch" 50
+F2 "SWCLK_[1..8]" I L 7350 5250 50 
+F3 "SWDIO_[1..8]" I L 7350 5350 50 
+F4 "NRST_[1..8]" I L 7350 5450 50 
+F5 "SWO_[1..8]" I L 7350 5550 50 
+$EndSheet
+$Sheet
+S 5750 5050 1200 900 
+U 5FEB99F8
+F0 "SWD_Muxes" 50
+F1 "SWD_Muxes.sch" 50
+F2 "SWCLK_[1..8]" O R 6950 5250 50 
+F3 "SWO_[1..8]" O R 6950 5550 50 
+F4 "SWDIO_[1..8]" O R 6950 5350 50 
+F5 "NRST_[1..8]" O R 6950 5450 50 
+F6 "ADR_[0..2]" I L 5750 5800 50 
+F7 "TMUX_ENABLE" I L 5750 5700 50 
+F8 "IN_SWCLK" I L 5750 5250 50 
+F9 "IN_SWDIO" I L 5750 5350 50 
+F10 "IN_NRST" I L 5750 5450 50 
+F11 "IN_SWO" I L 5750 5550 50 
+$EndSheet
+Entry Wire Line
+	8300 3350 8200 3250
+Entry Wire Line
+	8300 3250 8200 3150
+Text Label 5400 5800 2    50   ~ 0
+ADR_[0..2]
+Wire Bus Line
+	5400 5800 5750 5800
+Entry Wire Line
+	8300 3150 8200 3050
+Wire Bus Line
+	8200 3000 8050 3000
+Text Label 8050 3000 2    50   ~ 0
+ADR_[0..2]
+Wire Wire Line
+	5750 5700 5400 5700
+Text Label 8700 3550 2    50   ~ 0
+SWD_TMUX_ENABLE
+Wire Bus Line
+	7350 5250 6950 5250
+Wire Bus Line
+	6950 5350 7350 5350
+Wire Bus Line
+	6950 5450 7350 5450
+Wire Bus Line
+	6950 5550 7350 5550
+$Sheet
+S 9100 750  950  5800
+U 58F25814
+F0 "STM32F446" 60
+F1 "STM32F446.sch" 60
+F2 "PA4" I L 9100 1250 60 
+F3 "PA0" I L 9100 850 60 
+F4 "PA1" I L 9100 950 60 
+F5 "VBat" I L 9100 5750 60 
+F6 "PC0" I L 9100 5450 60 
+F7 "PC1" I L 9100 5350 60 
+F8 "PC2" I L 9100 5250 60 
+F9 "PC3" I L 9100 5150 60 
+F10 "PC4" I L 9100 5050 60 
+F11 "PC5" I L 9100 4950 60 
+F12 "PB0" I L 9100 3950 60 
+F13 "PB1" I L 9100 3850 60 
+F14 "PB2" I L 9100 3750 60 
+F15 "PB10" I L 9100 2950 60 
+F16 "PB12" I L 9100 2850 60 
+F17 "PB13" O L 9100 2750 60 
+F18 "PB14" I L 9100 2650 60 
+F19 "PB15" I L 9100 2550 60 
+F20 "PC6" I L 9100 4850 60 
+F21 "PC7" I L 9100 4750 60 
+F22 "PC8" I L 9100 4650 60 
+F23 "PC9" I L 9100 4550 60 
+F24 "PA11" I L 9100 1950 60 
+F25 "PA12" O L 9100 2050 60 
+F26 "PA15" I L 9100 2350 60 
+F27 "PC10" I L 9100 4450 60 
+F28 "PC11" I L 9100 4350 60 
+F29 "PC12" I L 9100 4250 60 
+F30 "PD2" I L 9100 5650 60 
+F31 "PB4" O L 9100 3550 60 
+F32 "PB5" I L 9100 3450 60 
+F33 "PB6" I L 9100 3350 60 
+F34 "PB7" I L 9100 3250 60 
+F35 "PB8" I L 9100 3150 60 
+F36 "PB9" I L 9100 3050 60 
+F37 "PA5" I L 9100 1350 60 
+F38 "PA6" O L 9100 1450 60 
+F39 "PA7" I L 9100 1550 60 
+F40 "NRST" I L 9100 6250 60 
+F41 "SWO" I L 9100 6350 50 
+F42 "SWDIO" I L 9100 6150 50 
+F43 "SWCLK" I L 9100 6050 50 
+$EndSheet
+Wire Wire Line
+	9100 6350 8800 6350
+Wire Wire Line
+	9100 6150 8800 6150
+Wire Wire Line
+	9100 6050 8800 6050
+Text Label 8800 6150 2    50   ~ 0
+MCU_SWDIO
+Text Label 8800 6050 2    50   ~ 0
+MCU_SWCLK
+Text Label 8800 6350 2    50   ~ 0
+MCU_SWO
+Wire Wire Line
+	4550 5550 5750 5550
+Wire Wire Line
+	4550 5450 5750 5450
+Wire Wire Line
+	4550 5350 5750 5350
+Wire Wire Line
+	4550 5250 5750 5250
+Text Label 5400 5700 2    50   ~ 0
+SWD_TMUX_ENABLE
+Wire Wire Line
+	4550 6250 4800 6250
+Wire Wire Line
+	4550 6350 4800 6350
+Wire Wire Line
+	4550 6450 4800 6450
+Wire Wire Line
+	4550 6550 4800 6550
+Text Label 4800 6250 0    50   ~ 0
+MCU_SWCLK
+Text Label 4800 6350 0    50   ~ 0
+MCU_SWDIO
+Text Label 4800 6450 0    50   ~ 0
+MCU_NRST
+Text Label 4800 6550 0    50   ~ 0
+MCU_SWO
+$Sheet
+S 3700 5000 850  2250
+U 600D08EC
+F0 "SWD_Jumpers" 50
+F1 "SWD_Jumpers.sch" 50
+F2 "STLINK_SWCLK" I L 3700 5750 50 
+F3 "STLINK_SWDIO" I L 3700 5850 50 
+F4 "STLINK_NRST" I L 3700 5950 50 
+F5 "STLINK_SWO" I L 3700 6050 50 
+F6 "OUT_SWCLK" O R 4550 5250 50 
+F7 "OUT_SWDIO" O R 4550 5350 50 
+F8 "OUT_NRST" O R 4550 5450 50 
+F9 "OUT_SWO" O R 4550 5550 50 
+F10 "MCU_SWCLK" O R 4550 6250 50 
+F11 "MCU_SWDIO" O R 4550 6350 50 
+F12 "MCU_NRST" O R 4550 6450 50 
+F13 "MCU_SWO" O R 4550 6550 50 
+F14 "CONN_SWCLK" I L 3700 6750 50 
+F15 "CONN_SWDIO" I L 3700 6850 50 
+F16 "CONN_NRST" I L 3700 6950 50 
+F17 "CONN_SWO" I L 3700 7050 50 
+$EndSheet
+Wire Notes Line
+	1700 7650 1700 6700
+Wire Notes Line
+	1700 6700 2400 6700
+Wire Notes Line
+	2400 6700 2400 7650
+Wire Notes Line
+	2400 7650 1700 7650
+Text Notes 1750 6650 0    50   ~ 0
+Daisy chain SWD
+Wire Wire Line
+	3300 7050 3300 6750
+Text Label 2500 7050 0    50   ~ 0
+CONN_SWCLK
+Text Label 2500 7250 0    50   ~ 0
+CONN_SWDIO
+Text Label 2500 7350 0    50   ~ 0
+CONN_NRST
+Text Label 2500 7450 0    50   ~ 0
+CONN_SWO
+Wire Wire Line
+	3300 6750 3700 6750
+Wire Wire Line
+	2150 7050 3300 7050
+Wire Wire Line
+	3350 7250 3350 6850
+Wire Wire Line
+	3350 6850 3700 6850
+Wire Wire Line
+	2150 7250 3350 7250
+Wire Wire Line
+	3400 7350 3400 6950
+Wire Wire Line
+	3400 6950 3700 6950
+Wire Wire Line
+	2150 7350 3400 7350
+Wire Wire Line
+	3450 7450 3450 7050
+Wire Wire Line
+	3450 7050 3700 7050
+Wire Wire Line
+	2150 7450 3450 7450
+Wire Wire Line
+	2350 5750 3700 5750
+Wire Wire Line
+	2350 5850 3700 5850
+Wire Wire Line
+	2350 5950 3700 5950
+Wire Wire Line
+	2350 6050 3700 6050
+Text Label 2500 6050 0    50   ~ 0
+STLINK_SWO
+Text Label 2500 5950 0    50   ~ 0
+STLINK_NRST
+Text Label 2500 5850 0    50   ~ 0
+STLINK_SWDIO
+Text Label 2500 5750 0    50   ~ 0
+STLINK_SWCLK
+Text Label 4850 5250 0    50   ~ 0
+OUT_SWCLK
+Text Label 4850 5350 0    50   ~ 0
+OUT_SWDIO
+Text Label 4850 5450 0    50   ~ 0
+OUT_NRST
+Text Label 4850 5550 0    50   ~ 0
+OUT_SWO
+Wire Wire Line
+	9100 3050 8800 3050
+Wire Wire Line
+	8700 1950 9100 1950
+Wire Wire Line
+	8700 2050 9100 2050
+Text Label 8800 1950 0    50   ~ 0
+PA11
+Text Label 8800 2050 0    50   ~ 0
+PA12
+Wire Wire Line
+	8800 2750 9100 2750
+Text Label 8800 2750 0    50   ~ 0
+PB13
+Wire Wire Line
+	8800 3450 9100 3450
+Wire Wire Line
+	8700 3550 9100 3550
+Text Label 8800 3450 0    50   ~ 0
+PB5
+Text Label 8800 3550 0    50   ~ 0
+PB4
+Wire Wire Line
+	8300 3150 9100 3150
+Wire Wire Line
+	8300 3250 9100 3250
+Wire Wire Line
+	8300 3350 9100 3350
+Text Label 8800 3150 0    50   ~ 0
+PB8
+Text Label 8800 3250 0    50   ~ 0
+PB7
+Text Label 8800 3350 0    50   ~ 0
+PB6
+Wire Wire Line
+	2350 5550 2500 5550
+Wire Wire Line
+	2350 5450 2500 5450
+Wire Wire Line
+	2350 5250 2500 5250
+Wire Wire Line
+	2350 5150 2500 5150
+Text Label 2500 5550 0    50   ~ 0
+STLINK_CAN_RXD
+Text Label 2500 5450 0    50   ~ 0
+STLINK_CAN_TXD
+NoConn ~ 2150 6950
+$Comp
+L Power_Port:DGND #PWR0107
+U 1 1 5FE6F245
+P 2350 7150
+F 0 "#PWR0107" H 2350 6980 50  0001 C CNN
+F 1 "DGND" V 2350 6850 50  0000 L CNN
+F 2 "" H 2350 7250 60  0000 C CNN
+F 3 "" H 2330 7060 60  0000 C CNN
+	1    2350 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 7150 2150 7150
+Wire Wire Line
+	2350 4950 2500 4950
+Wire Wire Line
+	2500 4850 2350 4850
+Wire Wire Line
+	2500 4750 2350 4750
+Wire Wire Line
+	2500 4650 2350 4650
+Wire Wire Line
+	2500 4450 2350 4450
+Wire Wire Line
+	2500 4350 2350 4350
+Wire Wire Line
+	2500 4250 2350 4250
+Wire Wire Line
+	2500 4150 2350 4150
+Text Label 2500 4850 0    50   ~ 0
+STLINK_SPI_MOSI
+Text Label 2500 4950 0    50   ~ 0
+STLINK_SPI_MISO
+Text Label 2500 4750 0    50   ~ 0
+STLINK_SPI_CLK
+NoConn ~ 2500 4650
+Text Label 8550 1250 2    50   ~ 0
+SPI_NSS
+Text Label 8550 1350 2    50   ~ 0
+STLINK_SPI_CLK
+Text Label 8550 1450 2    50   ~ 0
+STLINK_SPI_MISO
+Text Label 8550 1550 2    50   ~ 0
+STLINK_SPI_MOSI
+Text Label 2500 4150 0    50   ~ 0
+SPI_NSS
+Text Label 2500 4250 0    50   ~ 0
+DAISYCHAIN_SPI_NSS
+NoConn ~ 2500 4350
+NoConn ~ 2500 4450
+Wire Notes Line
+	8650 1600 8650 1100
+Wire Notes Line
+	7850 1100 7850 1600
+Text Notes 8000 1100 0    50   ~ 0
+MCU IS SLAVE
+Wire Wire Line
+	9100 5650 8800 5650
+NoConn ~ 2500 5150
+NoConn ~ 2500 5250
+Wire Notes Line
+	7850 1600 8650 1600
+Wire Notes Line
+	7850 1100 8650 1100
+Wire Wire Line
+	8550 1250 9100 1250
+Wire Wire Line
+	8550 1350 9100 1350
+Wire Wire Line
+	8550 1450 9100 1450
+Wire Wire Line
+	8550 1550 9100 1550
+NoConn ~ 8800 850 
+NoConn ~ 8800 950 
+NoConn ~ 8800 5650
+NoConn ~ 8800 5450
+NoConn ~ 8800 5350
+NoConn ~ 8800 5250
+NoConn ~ 8800 5150
+NoConn ~ 8800 5050
+NoConn ~ 8800 4950
+NoConn ~ 8800 4850
+NoConn ~ 8800 4750
+NoConn ~ 8800 4650
+NoConn ~ 8800 4550
+NoConn ~ 8800 4450
+NoConn ~ 8800 4350
+NoConn ~ 8800 3950
+NoConn ~ 8800 3850
+NoConn ~ 8800 3750
+NoConn ~ 8800 3050
+NoConn ~ 8800 2850
+NoConn ~ 8800 2650
+NoConn ~ 8800 2550
+NoConn ~ 8800 2350
+$Comp
+L Connectors:61900611121 J1
+U 1 1 60704EDC
+P 2050 6950
+F 0 "J1" H 1873 7195 60  0000 R CNN
+F 1 "61900611121" H 2050 6630 50  0001 C CNN
+F 2 "Connectors:61900611121" H 2050 6040 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 2050 5990 30  0001 C CNN
+F 4 "Wurth" H 2050 6440 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 2050 6540 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 2050 6340 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 2050 6240 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 2050 6140 60  0001 C CNN "Description"
+	1    2050 6950
+	1    0    0    1   
+$EndComp
+Text Label 8800 4250 0    60   ~ 0
+PC12
+Wire Wire Line
+	8700 2950 9100 2950
+Wire Wire Line
+	8700 4250 9100 4250
+Text Label 8700 2950 2    50   ~ 0
+CS_SCL
+Text Label 8700 4250 2    50   ~ 0
+CS_SDA
+Wire Wire Line
+	5950 3050 6150 3050
+Wire Wire Line
+	5950 2950 6150 2950
+Wire Notes Line
+	4250 1850 4250 3650
+Text Label 7050 2750 0    50   ~ 0
+CS_SDA
+Text Label 7050 2650 0    50   ~ 0
+CS_SCL
+Wire Notes Line
+	1800 1850 1800 3650
+Wire Notes Line
+	4050 1850 4050 3650
+Wire Wire Line
+	3000 2600 3100 2600
+Wire Wire Line
+	3100 3400 3000 3400
+$Comp
+L Power_Port:DGND #PWR040
+U 1 1 60663103
+P 3200 3400
+F 0 "#PWR040" H 3200 3230 50  0001 C CNN
+F 1 "DGND" V 3200 3100 50  0000 L CNN
+F 2 "" H 3200 3500 60  0000 C CNN
+F 3 "" H 3180 3310 60  0000 C CNN
+	1    3200 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR038
+U 1 1 6065BCB3
+P 3200 2600
+F 0 "#PWR038" H 3200 2430 50  0001 C CNN
+F 1 "DGND" V 3200 2300 50  0000 L CNN
+F 2 "" H 3200 2700 60  0000 C CNN
+F 3 "" H 3180 2510 60  0000 C CNN
+	1    3200 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connectors:61900611121 J3
+U 1 1 60636221
+P 2900 2900
+F 0 "J3" H 2850 2800 60  0000 R CNN
+F 1 "61900611121" H 2900 2580 50  0001 C CNN
+F 2 "Connectors:61900611121" H 2900 1990 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 2900 1940 30  0001 C CNN
+F 4 "Wurth" H 2900 2390 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 2900 2490 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 2900 2290 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 2900 2190 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 2900 2090 60  0001 C CNN "Description"
+	1    2900 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J2
+U 1 1 6062CCB8
+P 2900 2100
+F 0 "J2" H 2850 2000 60  0000 R CNN
+F 1 "61900611121" H 2900 1780 50  0001 C CNN
+F 2 "Connectors:61900611121" H 2900 1190 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 2900 1140 30  0001 C CNN
+F 4 "Wurth" H 2900 1590 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 2900 1690 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 2900 1490 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 2900 1390 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 2900 1290 60  0001 C CNN "Description"
+	1    2900 2100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3000 2500 3100 2500
+Wire Wire Line
+	3100 3300 3000 3300
+$Comp
+L Power_Port:DGND #PWR036
+U 1 1 6036486C
+P 3200 2500
+F 0 "#PWR036" H 3200 2330 50  0001 C CNN
+F 1 "DGND" V 3200 2200 50  0000 L CNN
+F 2 "" H 3200 2600 60  0000 C CNN
+F 3 "" H 3180 2410 60  0000 C CNN
+	1    3200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR041
+U 1 1 60363E7D
+P 3200 3300
+F 0 "#PWR041" H 3200 3130 50  0001 C CNN
+F 1 "DGND" V 3200 3000 50  0000 L CNN
+F 2 "" H 3200 3400 60  0000 C CNN
+F 3 "" H 3180 3210 60  0000 C CNN
+	1    3200 3300
+	0    -1   -1   0   
+$EndComp
+Text Notes 5500 1800 0    50   ~ 0
+CAN CONNECTIONS
+Wire Notes Line
+	7450 1850 4250 1850
+Wire Notes Line
+	4250 3650 7450 3650
+Wire Wire Line
+	5900 2450 6150 2450
+Wire Wire Line
+	5900 2350 6150 2350
+Text Notes 2300 1800 0    50   ~ 0
+DAISY-CHAIN SPI CONNECTIONS
+Wire Notes Line
+	4050 1850 1800 1850
+Wire Notes Line
+	1800 3650 4050 3650
+Text Notes 2000 3250 0    50   ~ 0
+SPI Input\nfor daisy-chained\nboard
+Text Notes 2000 2450 0    50   ~ 0
+SPI Output\nto daisy-chained\nboard
+Text Label 3100 2100 0    50   ~ 0
+DAISYCHAIN_SPI_NSS
+Text Label 3100 2200 0    50   ~ 0
+STLINK_SPI_CLK
+Text Label 3100 2300 0    50   ~ 0
+STLINK_SPI_MISO
+Text Label 3100 2400 0    50   ~ 0
+STLINK_SPI_MOSI
+Text Label 3100 2900 0    50   ~ 0
+SPI_NSS
+Text Label 3100 3000 0    50   ~ 0
+STLINK_SPI_CLK
+Text Label 3100 3200 0    50   ~ 0
+STLINK_SPI_MOSI
+Text Label 3100 3100 0    50   ~ 0
+STLINK_SPI_MISO
+Wire Wire Line
+	3100 2400 3000 2400
+Wire Wire Line
+	3100 2300 3000 2300
+Wire Wire Line
+	3100 2200 3000 2200
+Wire Wire Line
+	3000 2100 3100 2100
+Wire Wire Line
+	3100 3200 3000 3200
+Wire Wire Line
+	3100 3100 3000 3100
+Wire Wire Line
+	3100 3000 3000 3000
+Wire Wire Line
+	3000 2900 3100 2900
+Text Label 5950 3050 2    50   ~ 0
+CAN1_RXD
+Text Label 5950 2950 2    50   ~ 0
+CAN1_TXD
+$Sheet
+S 6150 2200 700  1000
+U 5FEFC7D4
+F0 "CAN_Connectors" 50
+F1 "CAN_Connectors.sch" 50
+F2 "TXD" I L 6150 2950 50 
+F3 "RXD" O L 6150 3050 50 
+F4 "CAN_H" B L 6150 2350 50 
+F5 "CAN_L" B L 6150 2450 50 
+F6 "CS_I2C_SCL" I R 6850 2650 50 
+F7 "CS_I2C_SDA" B R 6850 2750 50 
+$EndSheet
+Text Label 5000 2450 2    50   ~ 0
+STLINK_CAN_RXD
+Text Label 5000 2350 2    50   ~ 0
+STLINK_CAN_TXD
+Wire Wire Line
+	5200 2450 5000 2450
+Wire Wire Line
+	5200 2350 5000 2350
+$Sheet
+S 5200 2200 700  400 
+U 6029B59D
+F0 "STLINK_CAN" 50
+F1 "STLINK_CAN.sch" 50
+F2 "CAN_H" B R 5900 2350 50 
+F3 "CAN_L" B R 5900 2450 50 
+F4 "TXD" I L 5200 2350 50 
+F5 "RXD" O L 5200 2450 50 
+$EndSheet
+$Sheet
+S 1800 4000 550  2200
+U 5FFCDA87
+F0 "STLINK-V3MODS" 50
+F1 "STLINK-V3MODS.sch" 50
+F2 "SWCLK" O R 2350 5750 50 
+F3 "SWDIO" O R 2350 5850 50 
+F4 "NRST" O R 2350 5950 50 
+F5 "SWO" O R 2350 6050 50 
+F6 "CAN_RX" I R 2350 5550 50 
+F7 "CAN_TX" O R 2350 5450 50 
+F8 "UART_RX" I R 2350 5250 50 
+F9 "UART_TX" O R 2350 5150 50 
+F10 "GPIO_0" B R 2350 4150 50 
+F11 "GPIO_1" B R 2350 4250 50 
+F12 "GPIO_2" B R 2350 4350 50 
+F13 "GPIO_3" B R 2350 4450 50 
+F14 "SPI_MISO" I R 2350 4950 50 
+F15 "SPIO_MOSI" O R 2350 4850 50 
+F16 "SPI_CLK" O R 2350 4750 50 
+F17 "SPI_NSS" O R 2350 4650 50 
+$EndSheet
+Wire Notes Line
+	7450 1850 7450 3650
+Wire Wire Line
+	6850 2650 7050 2650
+Wire Wire Line
+	6850 2750 7050 2750
+$Sheet
+S 3300 950  850  200 
+U 5FF7F596
+F0 "Mechanical" 50
+F1 "Mechanical.sch" 50
+$EndSheet
+Text Label 8700 2050 2    50   ~ 0
+CAN1_TXD
+NoConn ~ 8800 2750
+NoConn ~ 8800 3450
+Wire Bus Line
+	8200 3000 8200 3250
+$EndSCHEMATC

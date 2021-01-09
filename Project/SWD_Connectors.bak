@@ -1,0 +1,539 @@
+EESchema Schematic File Version 4
+LIBS:HW_Testbench-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Power_Port:DGND #PWR05
+U 1 1 5FE91CBF
+P 8250 1550
+F 0 "#PWR05" H 8250 1380 50  0001 C CNN
+F 1 "DGND" V 8250 1250 50  0000 L CNN
+F 2 "" H 8250 1650 60  0000 C CNN
+F 3 "" H 8230 1460 60  0000 C CNN
+	1    8250 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR06
+U 1 1 5FE926A9
+P 8250 2550
+F 0 "#PWR06" H 8250 2380 50  0001 C CNN
+F 1 "DGND" V 8250 2250 50  0000 L CNN
+F 2 "" H 8250 2650 60  0000 C CNN
+F 3 "" H 8230 2460 60  0000 C CNN
+	1    8250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR07
+U 1 1 5FE92945
+P 8250 3550
+F 0 "#PWR07" H 8250 3380 50  0001 C CNN
+F 1 "DGND" V 8250 3250 50  0000 L CNN
+F 2 "" H 8250 3650 60  0000 C CNN
+F 3 "" H 8230 3460 60  0000 C CNN
+	1    8250 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR08
+U 1 1 5FE92D56
+P 8250 4550
+F 0 "#PWR08" H 8250 4380 50  0001 C CNN
+F 1 "DGND" V 8250 4250 50  0000 L CNN
+F 2 "" H 8250 4650 60  0000 C CNN
+F 3 "" H 8230 4460 60  0000 C CNN
+	1    8250 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR01
+U 1 1 5FE93090
+P 6550 1550
+F 0 "#PWR01" H 6550 1380 50  0001 C CNN
+F 1 "DGND" V 6550 1250 50  0000 L CNN
+F 2 "" H 6550 1650 60  0000 C CNN
+F 3 "" H 6530 1460 60  0000 C CNN
+	1    6550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR02
+U 1 1 5FE93A55
+P 6550 2550
+F 0 "#PWR02" H 6550 2380 50  0001 C CNN
+F 1 "DGND" V 6550 2250 50  0000 L CNN
+F 2 "" H 6550 2650 60  0000 C CNN
+F 3 "" H 6530 2460 60  0000 C CNN
+	1    6550 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR04
+U 1 1 5FE94609
+P 6550 4550
+F 0 "#PWR04" H 6550 4380 50  0001 C CNN
+F 1 "DGND" V 6550 4250 50  0000 L CNN
+F 2 "" H 6550 4650 60  0000 C CNN
+F 3 "" H 6530 4460 60  0000 C CNN
+	1    6550 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 1550 7000 1550
+Wire Wire Line
+	6650 2550 6950 2550
+Wire Wire Line
+	6650 3550 6950 3550
+Wire Wire Line
+	6650 4550 6950 4550
+Wire Wire Line
+	8350 4550 8650 4550
+Wire Wire Line
+	8350 3550 8650 3550
+Wire Wire Line
+	8350 2550 8650 2550
+Wire Wire Line
+	8350 1550 8650 1550
+Text Label 6950 1450 2    50   ~ 0
+SWCLK_1
+Text Label 6950 2450 2    50   ~ 0
+SWCLK_2
+Text Label 6950 4450 2    50   ~ 0
+SWCLK_4
+Text Label 8650 1450 2    50   ~ 0
+SWCLK_5
+Text Label 8650 2450 2    50   ~ 0
+SWCLK_6
+Text Label 8650 3450 2    50   ~ 0
+SWCLK_7
+Text Label 8650 4450 2    50   ~ 0
+SWCLK_8
+Text Label 7000 1650 2    50   ~ 0
+SWDIO_1
+Text Label 6950 2650 2    50   ~ 0
+SWDIO_2
+Text Label 6950 4650 2    50   ~ 0
+SWDIO_4
+Text Label 8650 1650 2    50   ~ 0
+SWDIO_5
+Text Label 8650 2650 2    50   ~ 0
+SWDIO_6
+Text Label 8650 3650 2    50   ~ 0
+SWDIO_7
+Text Label 8650 4650 2    50   ~ 0
+SWDIO_8
+Text Label 7000 1750 2    50   ~ 0
+NRST_1
+Text Label 6950 2750 2    50   ~ 0
+NRST_2
+Text Label 6950 3750 2    50   ~ 0
+NRST_3
+Text Label 6950 4750 2    50   ~ 0
+NRST_4
+Text Label 6950 3650 2    50   ~ 0
+SWDIO_3
+Text Label 8650 1750 2    50   ~ 0
+NRST_5
+Text Label 8650 2750 2    50   ~ 0
+NRST_6
+Text Label 8650 3750 2    50   ~ 0
+NRST_7
+Text Label 8650 4750 2    50   ~ 0
+NRST_8
+Text Label 7000 1850 2    50   ~ 0
+SWO_1
+Text Label 6950 2850 2    50   ~ 0
+SWO_2
+Text Label 6950 3850 2    50   ~ 0
+SWO_3
+Text Label 6950 4850 2    50   ~ 0
+SWO_4
+Text Label 8650 1850 2    50   ~ 0
+SWO_5
+Text Label 8650 2850 2    50   ~ 0
+SWO_6
+Text Label 8650 3850 2    50   ~ 0
+SWO_7
+Text Label 8650 4850 2    50   ~ 0
+SWO_8
+Text Label 6950 3450 2    50   ~ 0
+SWCLK_3
+$Comp
+L Power_Port:DGND #PWR03
+U 1 1 5FE93F94
+P 6550 3550
+F 0 "#PWR03" H 6550 3380 50  0001 C CNN
+F 1 "DGND" V 6550 3250 50  0000 L CNN
+F 2 "" H 6550 3650 60  0000 C CNN
+F 3 "" H 6530 3460 60  0000 C CNN
+	1    6550 3550
+	0    1    1    0   
+$EndComp
+Text HLabel 1200 1100 0    50   Input ~ 0
+SWCLK_[1..8]
+Text HLabel 2550 1100 0    50   Input ~ 0
+SWDIO_[1..8]
+Text HLabel 1200 2400 0    50   Input ~ 0
+NRST_[1..8]
+Text HLabel 2550 2400 0    50   Input ~ 0
+SWO_[1..8]
+Entry Wire Line
+	1500 1250 1600 1350
+Entry Wire Line
+	1500 1350 1600 1450
+Entry Wire Line
+	1500 1450 1600 1550
+Entry Wire Line
+	1500 1550 1600 1650
+Entry Wire Line
+	1500 1650 1600 1750
+Entry Wire Line
+	1500 1750 1600 1850
+Entry Wire Line
+	1500 1850 1600 1950
+Entry Wire Line
+	1500 1950 1600 2050
+Wire Bus Line
+	1200 1100 1500 1100
+Text Label 1700 1350 0    50   ~ 0
+SWCLK_1
+Text Label 1700 1450 0    50   ~ 0
+SWCLK_2
+Text Label 1700 1550 0    50   ~ 0
+SWCLK_3
+Text Label 1700 1650 0    50   ~ 0
+SWCLK_4
+Text Label 1700 1750 0    50   ~ 0
+SWCLK_5
+Text Label 1700 1850 0    50   ~ 0
+SWCLK_6
+Text Label 1700 1950 0    50   ~ 0
+SWCLK_7
+Text Label 1700 2050 0    50   ~ 0
+SWCLK_8
+Wire Bus Line
+	2550 1100 2850 1100
+Entry Wire Line
+	2850 1950 2950 2050
+Entry Wire Line
+	2850 1850 2950 1950
+Entry Wire Line
+	2850 1750 2950 1850
+Entry Wire Line
+	2850 1650 2950 1750
+Entry Wire Line
+	2850 1550 2950 1650
+Entry Wire Line
+	2850 1450 2950 1550
+Entry Wire Line
+	2850 1350 2950 1450
+Entry Wire Line
+	2850 1250 2950 1350
+Text Label 3050 1350 0    50   ~ 0
+SWDIO_1
+Text Label 3050 1450 0    50   ~ 0
+SWDIO_2
+Text Label 3050 1550 0    50   ~ 0
+SWDIO_3
+Text Label 3050 1650 0    50   ~ 0
+SWDIO_4
+Text Label 3050 1750 0    50   ~ 0
+SWDIO_5
+Text Label 3050 1850 0    50   ~ 0
+SWDIO_6
+Text Label 3050 1950 0    50   ~ 0
+SWDIO_7
+Text Label 3050 2050 0    50   ~ 0
+SWDIO_8
+Wire Bus Line
+	1200 2400 1500 2400
+Entry Wire Line
+	1500 2550 1600 2650
+Entry Wire Line
+	1500 2650 1600 2750
+Entry Wire Line
+	1500 2750 1600 2850
+Entry Wire Line
+	1500 2850 1600 2950
+Entry Wire Line
+	1500 2950 1600 3050
+Entry Wire Line
+	1500 3050 1600 3150
+Entry Wire Line
+	1500 3150 1600 3250
+Entry Wire Line
+	1500 3250 1600 3350
+Wire Bus Line
+	2550 2400 2850 2400
+Entry Wire Line
+	2850 3250 2950 3350
+Entry Wire Line
+	2850 3150 2950 3250
+Entry Wire Line
+	2850 3050 2950 3150
+Entry Wire Line
+	2850 2950 2950 3050
+Entry Wire Line
+	2850 2850 2950 2950
+Entry Wire Line
+	2850 2750 2950 2850
+Entry Wire Line
+	2850 2650 2950 2750
+Entry Wire Line
+	2850 2550 2950 2650
+Text Label 1700 2650 0    50   ~ 0
+NRST_1
+Text Label 1700 2750 0    50   ~ 0
+NRST_2
+Text Label 1700 2850 0    50   ~ 0
+NRST_3
+Text Label 1700 2950 0    50   ~ 0
+NRST_4
+Text Label 1700 3050 0    50   ~ 0
+NRST_5
+Text Label 1700 3150 0    50   ~ 0
+NRST_6
+Text Label 1700 3250 0    50   ~ 0
+NRST_7
+Text Label 1700 3350 0    50   ~ 0
+NRST_8
+Text Label 3050 2650 0    50   ~ 0
+SWO_1
+Text Label 3050 2750 0    50   ~ 0
+SWO_2
+Text Label 3050 2850 0    50   ~ 0
+SWO_3
+Text Label 3050 2950 0    50   ~ 0
+SWO_4
+Text Label 3050 3050 0    50   ~ 0
+SWO_5
+Text Label 3050 3150 0    50   ~ 0
+SWO_6
+Text Label 3050 3250 0    50   ~ 0
+SWO_7
+Text Label 3050 3350 0    50   ~ 0
+SWO_8
+NoConn ~ 7000 1350
+NoConn ~ 6950 2350
+NoConn ~ 8650 1350
+NoConn ~ 8650 2350
+NoConn ~ 6950 3350
+NoConn ~ 6950 4350
+NoConn ~ 8650 4350
+NoConn ~ 8650 3350
+Wire Wire Line
+	1600 1350 1700 1350
+Wire Wire Line
+	1700 1450 1600 1450
+Wire Wire Line
+	1600 1550 1700 1550
+Wire Wire Line
+	1600 1650 1700 1650
+Wire Wire Line
+	1600 1750 1700 1750
+Wire Wire Line
+	1600 1850 1700 1850
+Wire Wire Line
+	1600 1950 1700 1950
+Wire Wire Line
+	1600 2050 1700 2050
+Wire Wire Line
+	2950 1350 3050 1350
+Wire Wire Line
+	2950 1450 3050 1450
+Wire Wire Line
+	2950 1550 3050 1550
+Wire Wire Line
+	2950 1650 3050 1650
+Wire Wire Line
+	2950 1750 3050 1750
+Wire Wire Line
+	2950 1850 3050 1850
+Wire Wire Line
+	2950 1950 3050 1950
+Wire Wire Line
+	2950 2050 3050 2050
+Wire Wire Line
+	1600 2650 1700 2650
+Wire Wire Line
+	1600 2750 1700 2750
+Wire Wire Line
+	1600 2850 1700 2850
+Wire Wire Line
+	1600 2950 1700 2950
+Wire Wire Line
+	1600 3050 1700 3050
+Wire Wire Line
+	1600 3150 1700 3150
+Wire Wire Line
+	1600 3250 1700 3250
+Wire Wire Line
+	1600 3350 1700 3350
+Wire Wire Line
+	2950 2650 3050 2650
+Wire Wire Line
+	2950 2750 3050 2750
+Wire Wire Line
+	2950 2850 3050 2850
+Wire Wire Line
+	2950 2950 3050 2950
+Wire Wire Line
+	2950 3050 3050 3050
+Wire Wire Line
+	2950 3150 3050 3150
+Wire Wire Line
+	2950 3250 3050 3250
+Wire Wire Line
+	2950 3350 3050 3350
+Wire Wire Line
+	7000 1450 6950 1450
+$Comp
+L Connectors:61900611121 J7
+U 1 1 60609AEC
+P 7100 1350
+F 0 "J7" H 6922 1595 60  0000 R CNN
+F 1 "61900611121" H 7100 1030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 7100 440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 7100 390 30  0001 C CNN
+F 4 "Wurth" H 7100 840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 7100 940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 7100 740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 7100 640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 7100 540 60  0001 C CNN "Description"
+	1    7100 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J4
+U 1 1 60613120
+P 7050 2350
+F 0 "J4" H 6872 2595 60  0000 R CNN
+F 1 "61900611121" H 7050 2030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 7050 1440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 7050 1390 30  0001 C CNN
+F 4 "Wurth" H 7050 1840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 7050 1940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 7050 1740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 7050 1640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 7050 1540 60  0001 C CNN "Description"
+	1    7050 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J5
+U 1 1 60614B14
+P 7050 3350
+F 0 "J5" H 6872 3595 60  0000 R CNN
+F 1 "61900611121" H 7050 3030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 7050 2440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 7050 2390 30  0001 C CNN
+F 4 "Wurth" H 7050 2840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 7050 2940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 7050 2740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 7050 2640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 7050 2540 60  0001 C CNN "Description"
+	1    7050 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J6
+U 1 1 60616196
+P 7050 4350
+F 0 "J6" H 6872 4595 60  0000 R CNN
+F 1 "61900611121" H 7050 4030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 7050 3440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 7050 3390 30  0001 C CNN
+F 4 "Wurth" H 7050 3840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 7050 3940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 7050 3740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 7050 3640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 7050 3540 60  0001 C CNN "Description"
+	1    7050 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J8
+U 1 1 60617EBC
+P 8750 1350
+F 0 "J8" H 8572 1595 60  0000 R CNN
+F 1 "61900611121" H 8750 1030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 8750 440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 8750 390 30  0001 C CNN
+F 4 "Wurth" H 8750 840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 8750 940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 8750 740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 8750 640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 8750 540 60  0001 C CNN "Description"
+	1    8750 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J9
+U 1 1 606196B4
+P 8750 2350
+F 0 "J9" H 8572 2595 60  0000 R CNN
+F 1 "61900611121" H 8750 2030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 8750 1440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 8750 1390 30  0001 C CNN
+F 4 "Wurth" H 8750 1840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 8750 1940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 8750 1740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 8750 1640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 8750 1540 60  0001 C CNN "Description"
+	1    8750 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J28
+U 1 1 6061AB9E
+P 8750 3350
+F 0 "J28" H 8572 3595 60  0000 R CNN
+F 1 "61900611121" H 8750 3030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 8750 2440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 8750 2390 30  0001 C CNN
+F 4 "Wurth" H 8750 2840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 8750 2940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 8750 2740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 8750 2640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 8750 2540 60  0001 C CNN "Description"
+	1    8750 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:61900611121 J29
+U 1 1 6061C132
+P 8750 4350
+F 0 "J29" H 8572 4595 60  0000 R CNN
+F 1 "61900611121" H 8750 4030 50  0001 C CNN
+F 2 "Connectors:61900611121" H 8750 3440 30  0001 C CNN
+F 3 "https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121" H 8750 3390 30  0001 C CNN
+F 4 "Wurth" H 8750 3840 60  0001 C CNN "Supplier"
+F 5 "61900611121" H 8750 3940 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth" H 8750 3740 60  0001 C CNN "Manufacturer"
+F 7 "61900611121" H 8750 3640 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Male Locking Header 1x6 2.54mm" H 8750 3540 60  0001 C CNN "Description"
+	1    8750 4350
+	-1   0    0    1   
+$EndComp
+Wire Bus Line
+	2850 2400 2850 3250
+Wire Bus Line
+	1500 2400 1500 3250
+Wire Bus Line
+	2850 1100 2850 1950
+Wire Bus Line
+	1500 1100 1500 1950
+$EndSCHEMATC

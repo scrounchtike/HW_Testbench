@@ -1,0 +1,19 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Supplier Part Number,Capacitance (Farad),Manufacturer Part Number,Supplier,Manufacturer,Tolerance (%),Voltage Rated (Volt),Color,Voltage - Forward (Vf) (Typ),Fuse Holder,Voltage Rating - AC,Voltage Rating - DC,Current Rating (A),Resistance (Ohms),Puissance (Watts),Voltage - Dropout (Typical),Regulator Topology,Current - Limit (Min),Current - Output,Voltage - Output,Voltage - Input,Voltage - Output (Min/Fixed),Voltage - Input (Min),Voltage - Input (Max)
+17,Pin Male Single Row Pin Header Strip,"Header_Male_Pin_2.54mm_1X2_,_Unshrouded",J107 J301,"Header_Male_Pin_2.54mm_1X2_,_Unshrouded",Headers_2.54mm_1X2,2,D,Pin Male Single Row Pin Header Strip,,Manufacturer Part Number,Ebay,Manufacturer,,,,,,,,,,,,,,,,,,,
+18,Pin Male Single Row Pin Header Strip,"Header_Male_Pin_2.54mm_1X3_,_Unshrouded",J15 J16 J17 J18 J202,"Header_Male_Pin_2.54mm_1X3_,_Unshrouded",Headers_2.54mm_1X3,5,D,Pin Male Single Row Pin Header Strip,,Manufacturer Part Number,Ebay,Manufacturer,,,,,,,,,,,,,,,,,,,
+
+
+
+
+
+Component Groups:,36
+Component Count:,146
+Fitted Components:,146
+Number of PCBs:,1
+Total components:,146
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,"Friday, January 08, 2021 at 08:39:13 pm"
+Schematic Source:,HW_Testbench.sch
+KiCad Version:,Eeschema (5.1.2-1)-1

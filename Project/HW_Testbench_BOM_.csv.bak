@@ -1,0 +1,53 @@
+Component,Desc,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Supplier Part Number,Capacitance (Farad),Manufacturer Part Number,Supplier,Manufacturer,Tolerance (%),Voltage Rated (Volt),Color,Voltage - Forward (Vf) (Typ),Fuse Holder,Voltage Rating - AC,Voltage Rating - DC,Current Rating (A),Resistance (Ohms),Puissance (Watts),Voltage - Dropout (Typical),Regulator Topology,Current - Limit (Min),Current - Output,Voltage - Output,Voltage - Input,Voltage - Output (Min/Fixed),Voltage - Input (Min),Voltage - Input (Max)
+1,CAP CER 22PF 50V C0G/NP0 0805,885012007053,C205 C206 C215,885012007053,C0805,3,D,732-7848-1-ND,22pF,885012007053,Digikey,Wurth Electronics Inc.,±5%,50V,,,,,,,,,,,,,,,,,
+2,CAP CER 22UF 6.3V X5R 0805,885012107005,C301,885012107005,C0805,1,D,732-7616-1-ND,22µF,885012107005,Digikey,Wurth Electronics Inc.,±20%,6.3V,,,,,,,,,,,,,,,,,
+3,CAP CER 10UF 16V X5R 0805,885012107014,C304,885012107014,C0805,1,D,732-7624-1-ND,10µF,885012007027,Digikey,Wurth Electronics Inc.,±20%,16V,,,,,,,,,,,,,,,,,
+4,CAP CER 1UF 25V X5R 0805,885012107015,C5 C7 C12 C17 C18 C20 C21 C31 C33 C35 C37 C39 C204 C208,885012107015,C0805,14,D,732-7625-1-ND,1µF,885012107015,Digikey,Wurth Electronics Inc.,±20%,25V,,,,,,,,,,,,,,,,,
+5,CAP CER 4.7UF 25V X5R 0805,885012107018,C212 C302 C303,885012107018,C0805,3,D,732-7628-1-ND,4.7µF,885012107018,Digikey,Wurth Electronics Inc.,±20%,25V,,,,,,,,,,,,,,,,,
+6,CAP CER 100PF 50V X7R 0805,885012207080,C6 C9 C10 C11,885012207080,C0805,4,D,732-8062-1-ND,100pF,885012207080,Digikey,Wurth Electronics Inc.,±10%,50V,,,,,,,,,,,,,,,,,
+7,CAP CER 10000PF 50V X7R 0805,885012207092,C209,885012207092,C0805,1,D,732-8074-1-ND,10nF,885012207092,Digikey,Wurth Electronics Inc.,±10%,50V,,,,,,,,,,,,,,,,,
+8,CAP CER 0.1UF 50V X7R 0805,885012207098,C1 C2 C3 C4 C8 C13 C14 C15 C16 C19 C22 C23 C24 C25 C26 C27 C201 C207 C210 C211 C213 C214,885012207098,C0805,22,D,732-8080-1-ND,100nF,885012207098,Digikey,Wurth Electronics Inc.,±10%,50V,,,,,,,,,,,,,,,,,
+9,LED RED CLEAR 0805 SMD,150080RS75000,D203,150080RS75000,LED_0805_RED,1,http://katalog.we-online.de/led/datasheet/150080RS75000.pdf,732-4984-1-ND,,150080RS75000,Digikey,Wurth Electronics Inc.,,,RED,2V,,,,,,,,,,,,,,,
+10,LED GREEN CLEAR 0805 SMD,150080VS75000,D201 D301 D302 D303,150080VS75000,LED_0805_GREEN,4,http://katalog.we-online.de/led/datasheet/150080VS75000.pdf,732-4986-1-ND,,150080VS75000,Digikey,Wurth Electronics Inc.,,,GREEN,2V,,,,,,,,,,,,,,,
+11,LED YELLOW CLEAR 0805 SMD,150080YS75000,D202,150080YS75000,LED_0805_YELLOW,1,http://katalog.we-online.de/led/datasheet/150080YS75000.pdf,732-4987-1-ND,,150080YS75000,Digikey,Wurth Electronics Inc.,,,YELLOW,2V,,,,,,,,,,,,,,,
+12,TVS DIODE 3.3VWM 10VC SOT23,D1213A-02SOL-7,D2,D1213A-02SOL-7,SOT-23-3,1,https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf,D1213A-02SOL-7DICT-ND,,D1213A-02SOL-7,Digikey,Diodes Incorporated,,,,,,,,,,,,,,,,,,,
+13,FUSE HOLDER RADIAL 250V 6.3A PCB,39511000440,F301,39511000440,TE5_395,1,http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf,WK0009-ND,,56200001009,Digikey,Littelfuse Inc.,,,,,Fuse Holder,125V,-,1A,,,,,,,,,,,
+14,TERM BLOCK PCB 2POS 5.0MM GREEN,1935161,J27,1935161,1935161,1,https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf,277-1667-ND,,1935161,Digikey,Phoenix Contact,,,,,,,,,,,,,,,,,,,
+15,Male Locking Header 1x6 2.54mm,61900611121,J1 J2 J3 J4 J5 J6 J7 J8 J9 J28 J29,61900611121,61900611121,11,https://www.we-online.com/katalog/en/WTB_2_54_MALE_LOCKING_HEADER_6190XX11121,61900611121,,61900611121,Wurth,Wurth,,,,,,,,,,,,,,,,,,,
+16,HEADER MALE DUAL ANGLE W/MNT 6P,649006227222,J19 J20 J21 J22 J23 J24 J25 J26 J30,649006227222,649006227222,9,http://katalog.we-online.de/em/datasheet/649006227222.pdf,732-1939-ND,,649006227222,Digikey,Wurth Electronics Inc.,,,,,,,,,,,,,,,,,,,
+17,Pin Male Single Row Pin Header Strip,"Header_Male_Pin_2.54mm_1X2_,_Unshrouded",J107 J301,"Header_Male_Pin_2.54mm_1X2_,_Unshrouded",Headers_2.54mm_1X2,2,D,Pin Male Single Row Pin Header Strip,,Manufacturer Part Number,Ebay,Manufacturer,,,,,,,,,,,,,,,,,,,
+18,Pin Male Single Row Pin Header Strip,"Header_Male_Pin_2.54mm_1X3_,_Unshrouded",J15 J16 J17 J18 J202,"Header_Male_Pin_2.54mm_1X3_,_Unshrouded",Headers_2.54mm_1X3,5,D,Pin Male Single Row Pin Header Strip,,Manufacturer Part Number,Ebay,Manufacturer,,,,,,,,,,,,,,,,,,,
+19,"0 Ohms Jumper 0.5W, 1/2W Chip Resistor 0805 (2012 Metric)  Metal Element",0hms_0.5W,R21 R22 R23 R24 R27 R28 R29 R30 R33 R34 R35 R36 R39 R40 R41 R42,0hms_0.5W,R0805,16,https://www.keyelco.com/userAssets/file/M65p54.pdf,36-5106CT-ND,,5106,Digikey,Keystone Electronics,,,,,,,,,0,1/2W,,,,,,,,,
+20,"5 mOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense Thick Film",ERJ-6LWFR005V,R19 R20 R25 R26 R31 R32 R37 R38,ERJ-6LWFR005V,R0805,8,https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ERJ-6LWFR005V/6004266,P19183TR-ND,,ERJ-6LWFR005V,Digikey,Panasonic Electronic Components,±1%,,,,,,,,0.005,1/2W,,,,,,,,,
+21,RES SMD 0.0 OHM JUMPER 1/8W 0805,RC0805JR-070RL,R203,RC0805JR-070RL,R0805,1,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-0.0ARCT-ND,,RC0805JR-070RL,Digikey,Yageo,0,,,,,,,,0,1/8W,,,,,,,,,
+22,RES SMD 100 OHM 5% 1/8W 0805,RC0805JR-07100RL,R4 R7 R206 R207,RC0805JR-07100RL,R0805,4,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-100ARCT-ND,,RC0805JR-07100RL,Digikey,Yageo,±5%,,,,,,,,100,1/8W,,,,,,,,,
+23,RES SMD 10K OHM 5% 1/8W 0805,RC0805JR-0710KL,R201,RC0805JR-0710KL,R0805,1,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-10KARCT-ND,,RC0805JR-0710KL,Digikey,Yageo,±5%,,,,,,,,10k,1/8W,,,,,,,,,
+24,RES SMD 1K OHM 5% 1/8W 0805,RC0805JR-071KL,R212 R302,RC0805JR-071KL,R0805,2,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-1.0KARCT-ND,,RC0805JR-071KL,Digikey,Yageo,±5%,,,,,,,,1k,1/8W,,,,,,,,,
+25,RES SMD 470 OHM 5% 1/8W 0805,RC0805JR-07470RL,R209 R210 R211 R303,RC0805JR-07470RL,R0805,4,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-470ARCT-ND,,RC0805JR-07470RL,Digikey,Yageo,±5%,,,,,,,,470,1/8W,,,,,,,,,
+26,RES SMD 4.7K OHM 5% 1/8W 0805,RC0805JR-074K7L,R17 R18 R204 R205 R208 R301,RC0805JR-074K7L,R0805,6,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-4.7KARCT-ND,,RC0805JR-074K7L,Digikey,Yageo,±5%,,,,,,,,4.7k,1/8W,,,,,,,,,
+27,RES SMD 120 OHM 5% 1/4W 1206,RC1206JR-07120RL,R5 R8,RC1206JR-07120RL,R1206,2,http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf,311-120ERCT-ND,,RC1206JR-07120RL,Digikey,Yageo,±5%,,,,,,,,120,1/4W,,,,,,,,,
+28,SWITCH TACTILE SPST-NO 0.05A 12V,PTS645SM43SMTR92,SW201 SW202,PTS645SM43SMTR92,PTS645_6X6X4_SMD,2,http://www.ckswitches.com/media/1471/pts645.pdf,CKN9112CT-ND,,PTS645SM43SMTR92 LFS,Digikey,C&K,,,,,,,,,,,,,,,,,,,
+29,IC REG LDO 3.3V 0.8A SOT223,AZ1117IH-3.3TRG1,U302,AZ1117IH-3.3TRG1,SOT-223-3,1,https://www.diodes.com/assets/Datasheets/AZ1117I.pdf,AZ1117IH-3.3TRG1DICT-ND,,AZ1117IH-3.3TRG1,Digikey,Diodes Incorporated,,,,,,,,,,,1.2V @ 800mA,Linear,800mA,800mA,3.3V,Up to 15V,,,
+30,Power Supply Controller Telecommunications 16-MSOP,LTC2992IMS_PBF,U6 U9 U10 U11,LTC2992IMS_PBF,AnalogDevices_16-MSOP,4,https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2992.pdf,LTC2992IMS#PBF-ND,,LTC2992IMS#PBF,Digikey,Analog Devices,,,,,,,,,,,,,,,,,,,
+31,DC/DC CONVERTER 5V 8W,OKI-78SR-5_1.5-W36H-C,U301,OKI-78SR-5_1.5-W36H-C,OKI-78SR_Horizontal,1,http://power.murata.com/data/power/oki-78sr.pdf,811-2692-ND,,OKI-78SR-5/1.5-W36H-C,Digikey,Murata Power Solutions Inc.,,,,,,,,,,,,,,1.5A,,,5V,7V,36V
+32,IC CAN TRANSCEIVER 3.3V 8-SOIC,SN65HVD232DR,U7 U8,SN65HVD232DR,SOIC-8,2,http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf,296-26344-1-ND,,SN65HVD232DR,Digikey,Texas Instruments,,,,,,,,,,,,,,,,,,,
+33,"STM32 - Debugger, Programmer (In-Circuit/In-System)",STLINK-V3MODS,U12,STLINK-V3MODS,MOD_STLINK-V3M_MB1467,1,https://www.st.com/resource/en/user_manual/dm00555046-stlink-v3mods-and-stlink-v3mini-mini-debuggers-programmers-for-stm32-stmicroelectronics.pdf,497-STLINK-V3MODS-ND,,STLINK-V3MODS,Digikey,STMicroelectronics,,,,,,,,,,,,,,,,,,,
+34,IC MCU 32BIT 512KB FLASH 64LQFP,STM32F446RE,U201,STM32F446RE,LQFP-64,1,http://www.st.com/content/ccc/resource/technical/document/datasheet/65/cb/75/50/53/d6/48/24/DM00141306.pdf/files/DM00141306.pdf/jcr:content/translations/en.DM00141306.pdf,497-15376-ND,,STM32F446RET6,Digikey,STMicroelectronics,,,,,,,,,,,,,,,,,,,
+35,1 Circuit IC Switch 8:1 3Ohm (Typ) 16-TSSOP,TMUX1208PWR,U1 U2 U3 U4,TMUX1208PWR,TSSOP-16,4,https://www.ti.com/lit/ds/symlink/tmux1208.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1608590218234,296-51847-2-ND,,TMUX1208PWR,Digikey,Texas Instruments,,,,,,,,,,,,,,,,,,,
+36,CRYSTAL 8.000MHZ 18PF SMT,7A-8.000MAHJ-T,XTAL202,7A-8.000MAHJ-T,TXC_7A_Series,1,http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7A_28.pdf,887-2634-1-ND,,ABLS-8.000MHZ-D-T,Digikey,TXC CORPORATION,,,,,,,,,,,,,,,,,,,
+
+
+
+
+
+Component Groups:,36
+Component Count:,146
+Fitted Components:,146
+Number of PCBs:,1
+Total components:,146
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,[u'default']
+BoM Date:,"Friday, January 08, 2021 at 08:39:13 pm"
+Schematic Source:,HW_Testbench.sch
+KiCad Version:,Eeschema (5.1.2-1)-1
