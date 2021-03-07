@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 22
+Sheet 7 23
 Title ""
 Date ""
 Rev ""
@@ -15,68 +15,68 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	8850 1150 8700 1150
+	9750 950  9600 950 
 Wire Wire Line
-	8700 1250 8850 1250
-Text Label 8700 1150 2    50   ~ 0
+	9600 1050 9750 1050
+Text Label 9600 950  2    50   ~ 0
 CAN_H
-Text Label 8700 1250 2    50   ~ 0
+Text Label 9600 1050 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	8850 1900 8700 1900
+	9750 1700 9600 1700
 Wire Wire Line
-	8700 2000 8850 2000
-Text Label 8700 1900 2    50   ~ 0
+	9600 1800 9750 1800
+Text Label 9600 1700 2    50   ~ 0
 CAN_H
-Text Label 8700 2000 2    50   ~ 0
+Text Label 9600 1800 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	8850 2650 8700 2650
+	9750 2450 9600 2450
 Wire Wire Line
-	8700 2750 8850 2750
-Text Label 8700 2650 2    50   ~ 0
+	9600 2550 9750 2550
+Text Label 9600 2450 2    50   ~ 0
 CAN_H
-Text Label 8700 2750 2    50   ~ 0
+Text Label 9600 2550 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	8850 3400 8700 3400
+	9750 3200 9600 3200
 Wire Wire Line
-	8700 3500 8850 3500
-Text Label 8700 3400 2    50   ~ 0
+	9600 3300 9750 3300
+Text Label 9600 3200 2    50   ~ 0
 CAN_H
-Text Label 8700 3500 2    50   ~ 0
+Text Label 9600 3300 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	6750 3400 6600 3400
+	7650 3200 7500 3200
 Wire Wire Line
-	6600 3500 6750 3500
-Text Label 6600 3400 2    50   ~ 0
+	7500 3300 7650 3300
+Text Label 7500 3200 2    50   ~ 0
 CAN_H
-Text Label 6600 3500 2    50   ~ 0
+Text Label 7500 3300 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	6750 2650 6600 2650
+	7650 2450 7500 2450
 Wire Wire Line
-	6600 2750 6750 2750
-Text Label 6600 2650 2    50   ~ 0
+	7500 2550 7650 2550
+Text Label 7500 2450 2    50   ~ 0
 CAN_H
-Text Label 6600 2750 2    50   ~ 0
+Text Label 7500 2550 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	6750 1900 6600 1900
+	7650 1700 7500 1700
 Wire Wire Line
-	6600 2000 6750 2000
-Text Label 6600 1900 2    50   ~ 0
+	7500 1800 7650 1800
+Text Label 7500 1700 2    50   ~ 0
 CAN_H
-Text Label 6600 2000 2    50   ~ 0
+Text Label 7500 1800 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	6750 1150 6600 1150
+	7650 950  7500 950 
 Wire Wire Line
-	6600 1250 6750 1250
-Text Label 6600 1150 2    50   ~ 0
+	7500 1050 7650 1050
+Text Label 7500 950  2    50   ~ 0
 CAN_H
-Text Label 6600 1250 2    50   ~ 0
+Text Label 7500 1050 2    50   ~ 0
 CAN_L
 $Comp
 L Power_Port:VDD #PWR?
@@ -312,10 +312,6 @@ F 11 "1/4W" H 4600 3060 50  0001 C CNN "Puissance (Watts)"
 	1    4600 3200
 	1    0    0    -1  
 $EndComp
-Text Label 4500 2100 0    60   ~ 0
-CAN_P
-Text Label 4500 2300 0    60   ~ 0
-CAN_N
 $Comp
 L Interface:SN65HVD232DR U?
 U 1 1 5FF386DC
@@ -446,11 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6300 5050 6300
 Wire Wire Line
-	5600 6100 5750 6100
-Wire Wire Line
 	5750 6200 5600 6200
-Text Label 5750 6100 0    50   ~ 0
-CAN_PWR
 Text Label 5750 6200 0    50   ~ 0
 SHIELD
 Text Label 5050 6100 2    50   ~ 0
@@ -490,76 +482,76 @@ Wire Notes Line
 Text Notes 2600 4750 0    100  ~ 0
 Daisy-chain CAN Connection
 $Sheet
-S 8850 900  550  500 
+S 9750 700  550  500 
 U 5FF30BE7
 F0 "CAN_Conn5" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 8850 1150 50 
-F3 "CAN_L" B L 8850 1250 50 
-F4 "CAN_12V" U L 8850 1050 50 
+F2 "CAN_H" B L 9750 950 50 
+F3 "CAN_L" B L 9750 1050 50 
+F4 "CAN_12V" U L 9750 850 50 
 $EndSheet
 $Sheet
-S 8850 1650 550  500 
+S 9750 1450 550  500 
 U 5FF30B9A
 F0 "CAN_Conn6" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 8850 1900 50 
-F3 "CAN_L" B L 8850 2000 50 
-F4 "CAN_12V" U L 8850 1800 50 
+F2 "CAN_H" B L 9750 1700 50 
+F3 "CAN_L" B L 9750 1800 50 
+F4 "CAN_12V" U L 9750 1600 50 
 $EndSheet
 $Sheet
-S 8850 2400 550  500 
+S 9750 2200 550  500 
 U 5FF30B26
 F0 "CAN_Conn7" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 8850 2650 50 
-F3 "CAN_L" B L 8850 2750 50 
-F4 "CAN_12V" U L 8850 2550 50 
+F2 "CAN_H" B L 9750 2450 50 
+F3 "CAN_L" B L 9750 2550 50 
+F4 "CAN_12V" U L 9750 2350 50 
 $EndSheet
 $Sheet
-S 8850 3150 550  500 
+S 9750 2950 550  500 
 U 5FF00B0E
 F0 "CAN_Conn8" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 8850 3400 50 
-F3 "CAN_L" B L 8850 3500 50 
-F4 "CAN_12V" U L 8850 3300 50 
+F2 "CAN_H" B L 9750 3200 50 
+F3 "CAN_L" B L 9750 3300 50 
+F4 "CAN_12V" U L 9750 3100 50 
 $EndSheet
 $Sheet
-S 6750 3150 550  500 
+S 7650 2950 550  500 
 U 5FF30AAC
 F0 "CAN_Conn4" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 6750 3400 50 
-F3 "CAN_L" B L 6750 3500 50 
-F4 "CAN_12V" U L 6750 3300 50 
+F2 "CAN_H" B L 7650 3200 50 
+F3 "CAN_L" B L 7650 3300 50 
+F4 "CAN_12V" U L 7650 3100 50 
 $EndSheet
 $Sheet
-S 6750 2400 550  500 
+S 7650 2200 550  500 
 U 5FF30A38
 F0 "CAN_Conn3" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 6750 2650 50 
-F3 "CAN_L" B L 6750 2750 50 
-F4 "CAN_12V" U L 6750 2550 50 
+F2 "CAN_H" B L 7650 2450 50 
+F3 "CAN_L" B L 7650 2550 50 
+F4 "CAN_12V" U L 7650 2350 50 
 $EndSheet
 $Sheet
-S 6750 1650 550  500 
+S 7650 1450 550  500 
 U 5FF3099D
 F0 "CAN_Conn2" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 6750 1900 50 
-F3 "CAN_L" B L 6750 2000 50 
-F4 "CAN_12V" U L 6750 1800 50 
+F2 "CAN_H" B L 7650 1700 50 
+F3 "CAN_L" B L 7650 1800 50 
+F4 "CAN_12V" U L 7650 1600 50 
 $EndSheet
 $Sheet
-S 6750 900  550  500 
+S 7650 700  550  500 
 U 5FF30935
 F0 "CAN_Conn1" 50
 F1 "Board_CAN_Connector.sch" 50
-F2 "CAN_H" B L 6750 1150 50 
-F3 "CAN_L" B L 6750 1250 50 
-F4 "CAN_12V" U L 6750 1050 50 
+F2 "CAN_H" B L 7650 950 50 
+F3 "CAN_L" B L 7650 1050 50 
+F4 "CAN_12V" U L 7650 850 50 
 $EndSheet
 $Comp
 L Capacitors:885012207080 C10
@@ -737,207 +729,35 @@ F 11 "1/8W" H 1500 1960 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 1050 6600 1050
+	7650 850  7500 850 
 Wire Wire Line
-	6600 1800 6750 1800
+	7500 1600 7650 1600
 Wire Wire Line
-	6600 2550 6750 2550
+	7500 2350 7650 2350
 Wire Wire Line
-	8700 3300 8850 3300
+	9600 3100 9750 3100
 Wire Wire Line
-	8700 2550 8850 2550
+	9600 2350 9750 2350
 Wire Wire Line
-	8700 1800 8850 1800
+	9600 1600 9750 1600
 Wire Wire Line
-	8700 1050 8850 1050
-Text Label 6600 1050 2    50   ~ 0
+	9600 850  9750 850 
+Text Label 7500 850  2    50   ~ 0
 12V_Conn1
-Text Label 6600 1800 2    50   ~ 0
+Text Label 7500 1600 2    50   ~ 0
 12V_Conn2
-Text Label 6600 2550 2    50   ~ 0
+Text Label 7500 2350 2    50   ~ 0
 12V_Conn3
-Text Label 6600 3300 2    50   ~ 0
+Text Label 7500 3100 2    50   ~ 0
 12V_Conn4
-Text Label 8700 1050 2    50   ~ 0
+Text Label 9600 850  2    50   ~ 0
 12V_Conn5
-Text Label 8700 1800 2    50   ~ 0
+Text Label 9600 1600 2    50   ~ 0
 12V_Conn6
-Text Label 8700 2550 2    50   ~ 0
+Text Label 9600 2350 2    50   ~ 0
 12V_Conn7
-Text Label 8700 3300 2    50   ~ 0
+Text Label 9600 3100 2    50   ~ 0
 12V_Conn8
-$Sheet
-S 7850 4100 750  900 
-U 5FEFDFE4
-F0 "CurrentSense_1" 50
-F1 "CurrentSense12V.sch" 50
-F2 "V1+" U L 7850 4250 50 
-F3 "V1-" U L 7850 4350 50 
-F4 "V2+" U L 7850 4500 50 
-F5 "V2-" U L 7850 4600 50 
-F6 "SCL" I L 7850 4750 50 
-F7 "SDA" B L 7850 4850 50 
-$EndSheet
-$Sheet
-S 9750 4100 750  900 
-U 5FEFA5E7
-F0 "CurrentSense_3" 50
-F1 "CurrentSense12V.sch" 50
-F2 "V1+" U L 9750 4250 50 
-F3 "V1-" U L 9750 4350 50 
-F4 "V2+" U L 9750 4500 50 
-F5 "V2-" U L 9750 4600 50 
-F6 "SCL" I L 9750 4750 50 
-F7 "SDA" B L 9750 4850 50 
-$EndSheet
-Text Label 7700 4850 2    50   ~ 0
-CS_I2C_SDA
-Text Label 7700 4750 2    50   ~ 0
-CS_I2C_SCL
-Wire Wire Line
-	7700 4750 7850 4750
-Wire Wire Line
-	7700 4850 7850 4850
-Text Label 9600 4850 2    50   ~ 0
-CS_I2C_SDA
-Text Label 9600 4750 2    50   ~ 0
-CS_I2C_SCL
-Wire Wire Line
-	9600 4750 9750 4750
-Wire Wire Line
-	9600 4850 9750 4850
-$Sheet
-S 7850 5350 750  900 
-U 5FF307B6
-F0 "CurrentSense_2" 50
-F1 "CurrentSense12V.sch" 50
-F2 "V1+" U L 7850 5500 50 
-F3 "V1-" U L 7850 5600 50 
-F4 "V2+" U L 7850 5750 50 
-F5 "V2-" U L 7850 5850 50 
-F6 "SCL" I L 7850 6000 50 
-F7 "SDA" B L 7850 6100 50 
-$EndSheet
-$Sheet
-S 9750 5350 750  900 
-U 5FF307BE
-F0 "CurrentSense_4" 50
-F1 "CurrentSense12V.sch" 50
-F2 "V1+" U L 9750 5500 50 
-F3 "V1-" U L 9750 5600 50 
-F4 "V2+" U L 9750 5750 50 
-F5 "V2-" U L 9750 5850 50 
-F6 "SCL" I L 9750 6000 50 
-F7 "SDA" B L 9750 6100 50 
-$EndSheet
-Text Label 7700 6100 2    50   ~ 0
-CS_I2C_SDA
-Text Label 7700 6000 2    50   ~ 0
-CS_I2C_SCL
-Wire Wire Line
-	7700 6000 7850 6000
-Wire Wire Line
-	7700 6100 7850 6100
-Text Label 9600 6100 2    50   ~ 0
-CS_I2C_SDA
-Text Label 9600 6000 2    50   ~ 0
-CS_I2C_SCL
-Wire Wire Line
-	9600 6000 9750 6000
-Wire Wire Line
-	9600 6100 9750 6100
-Text Label 7700 4350 2    50   ~ 0
-12V_Conn1
-Text Label 7700 4600 2    50   ~ 0
-12V_Conn2
-Text Label 7700 5600 2    50   ~ 0
-12V_Conn3
-Text Label 7700 5850 2    50   ~ 0
-12V_Conn4
-Text Label 9600 4350 2    50   ~ 0
-12V_Conn5
-Text Label 9600 4600 2    50   ~ 0
-12V_Conn6
-Text Label 9600 5600 2    50   ~ 0
-12V_Conn7
-Text Label 9600 5850 2    50   ~ 0
-12V_Conn8
-Wire Wire Line
-	7700 4600 7850 4600
-Wire Wire Line
-	7700 4350 7850 4350
-Wire Wire Line
-	7700 5850 7850 5850
-Wire Wire Line
-	7700 5600 7850 5600
-Wire Wire Line
-	9600 4350 9750 4350
-Wire Wire Line
-	9600 4600 9750 4600
-Wire Wire Line
-	9600 5600 9750 5600
-Wire Wire Line
-	9600 5850 9750 5850
-$Comp
-L Power_Port:CAN_PWR #PWR043
-U 1 1 5FF5A648
-P 7100 4100
-F 0 "#PWR043" H 7100 3950 50  0001 C CNN
-F 1 "CAN_PWR" H 7100 4273 50  0000 C CNN
-F 2 "" H 7100 4100 60  0000 C CNN
-F 3 "" H 7100 4100 60  0000 C CNN
-	1    7100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Port:CAN_PWR #PWR045
-U 1 1 5FF5B50D
-P 9000 4100
-F 0 "#PWR045" H 9000 3950 50  0001 C CNN
-F 1 "CAN_PWR" H 9000 4273 50  0000 C CNN
-F 2 "" H 9000 4100 60  0000 C CNN
-F 3 "" H 9000 4100 60  0000 C CNN
-	1    9000 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 4100 9000 4250
-Wire Wire Line
-	9000 4250 9750 4250
-Wire Wire Line
-	9000 4250 9000 4500
-Wire Wire Line
-	9000 4500 9750 4500
-Connection ~ 9000 4250
-Wire Wire Line
-	9000 4500 9000 5500
-Wire Wire Line
-	9000 5500 9750 5500
-Connection ~ 9000 4500
-Wire Wire Line
-	9000 5500 9000 5750
-Wire Wire Line
-	9000 5750 9750 5750
-Connection ~ 9000 5500
-Wire Wire Line
-	7100 4100 7100 4250
-Wire Wire Line
-	7100 4250 7850 4250
-Wire Wire Line
-	7100 4250 7100 4500
-Wire Wire Line
-	7100 4500 7850 4500
-Connection ~ 7100 4250
-Wire Wire Line
-	7100 4500 7100 5500
-Wire Wire Line
-	7100 5500 7850 5500
-Connection ~ 7100 4500
-Wire Wire Line
-	7100 5500 7100 5750
-Wire Wire Line
-	7100 5750 7850 5750
-Connection ~ 7100 5500
 Text Label 2750 4250 0    50   ~ 0
 CS_I2C_SDA
 Text Label 2750 4150 0    50   ~ 0
@@ -1046,7 +866,7 @@ F 1 "DGND" V 5700 5700 50  0000 L CNN
 F 2 "" H 5700 6100 60  0000 C CNN
 F 3 "" H 5680 5910 60  0000 C CNN
 	1    5700 6000
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3800 2100 4400 2100
@@ -1056,5 +876,62 @@ Connection ~ 1300 2100
 Wire Wire Line
 	1800 2100 3100 2100
 Wire Wire Line
-	6600 3300 6750 3300
+	7500 3100 7650 3100
+NoConn ~ 5600 6100
+$Sheet
+S 9100 4250 800  1300
+U 6047C11D
+F0 "CurrentSense" 50
+F1 "CurrentSense.sch" 50
+F2 "12V_Conn1" U L 9100 4400 50 
+F3 "12V_Conn2" U L 9100 4500 50 
+F4 "12V_Conn3" U L 9100 4600 50 
+F5 "12V_Conn4" U L 9100 4700 50 
+F6 "12V_Conn5" U L 9100 4800 50 
+F7 "12V_Conn6" U L 9100 4900 50 
+F8 "12V_Conn7" U L 9100 5000 50 
+F9 "12V_Conn8" U L 9100 5100 50 
+F10 "CS_I2C_SCL" I L 9100 5300 50 
+F11 "CS_I2C_SDA" B L 9100 5400 50 
+$EndSheet
+Wire Wire Line
+	9100 4400 8850 4400
+Wire Wire Line
+	8850 4500 9100 4500
+Wire Wire Line
+	8850 4600 9100 4600
+Wire Wire Line
+	8850 4700 9100 4700
+Wire Wire Line
+	8850 4800 9100 4800
+Wire Wire Line
+	8850 4900 9100 4900
+Wire Wire Line
+	8850 5000 9100 5000
+Wire Wire Line
+	8850 5100 9100 5100
+Wire Wire Line
+	8850 5300 9100 5300
+Wire Wire Line
+	8850 5400 9100 5400
+Text Label 8850 4400 2    50   ~ 0
+12V_Conn1
+Text Label 8850 4500 2    50   ~ 0
+12V_Conn2
+Text Label 8850 4600 2    50   ~ 0
+12V_Conn3
+Text Label 8850 4700 2    50   ~ 0
+12V_Conn4
+Text Label 8850 4800 2    50   ~ 0
+12V_Conn5
+Text Label 8850 4900 2    50   ~ 0
+12V_Conn6
+Text Label 8850 5000 2    50   ~ 0
+12V_Conn7
+Text Label 8850 5100 2    50   ~ 0
+12V_Conn8
+Text Label 8850 5300 2    50   ~ 0
+CS_I2C_SCL
+Text Label 8850 5400 2    50   ~ 0
+CS_I2C_SDA
 $EndSCHEMATC

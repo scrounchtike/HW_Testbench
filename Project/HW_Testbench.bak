@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 22
+Sheet 1 23
 Title ""
 Date ""
 Rev ""
@@ -786,6 +786,8 @@ Text Label 8700 2050 2    50   ~ 0
 CAN1_TXD
 NoConn ~ 8800 2750
 NoConn ~ 8800 3450
+Text Notes 700  1000 0    50   ~ 0
+GND Testpoint
 Wire Bus Line
 	8200 3000 8200 3250
 $EndSCHEMATC
